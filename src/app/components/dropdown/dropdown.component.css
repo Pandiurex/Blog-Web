@@ -1,0 +1,40 @@
+.menu {
+  margin-left: 3%;
+  background-color: #2196f3;
+  color: white;
+  padding: 0;
+}
+
+.menu a {
+  font-size: 35px;
+}
+
+.menu button {
+  background-color: #0d528b;
+  width: 100%;
+  color: white;
+  font-size: 22px;
+}
+.menu button:hover {
+  background-color: #106bb6;
+  color: white;
+}
+
+.show > .btn-secondary.dropdown-toggle {
+  background-color: #081d2f;
+}
+
+.dropdown-menu.show {
+  margin: 0;
+  padding: 0;
+}
+
+.boton {
+  background-color: #0d528b;
+  border-radius: 10%;
+  margin-right: 15px;
+  color: white;
+}
+.dropdown-item {
+  font-size: 15px !important;
+}
