@@ -1,9 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import { WindowsComponent } from './components/windows/windows.component';
+import { LinuxComponent } from './components/linux/linux.component';
 
-const routes: Routes = [{ path: 'home', component: HomeComponent },
-  { path: '**', pathMatch: 'full', redirectTo: 'home' }
+const routes: Routes = [
+  { path: 'home', component: HomeComponent },
+  { path: 'Linux', component: LinuxComponent },
+  { path: 'Windows', component: WindowsComponent },
+  { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 
 @NgModule({
