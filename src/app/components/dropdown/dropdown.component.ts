@@ -6,13 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dropdown.component.css']
 })
 export class DropdownComponent implements OnInit {
+  menu = [
+    {
+      software: 'Windows',
+    },
+    {
+      software: 'Linux'
+    },
+    {
+      software: 'Windows Server'
+    },
+    {
+      software: 'Linux Server'
+    }
+  ];
 
-  menu = ['Windows', 'Linux', 'MacOS'];
-  i = 0;
+  constructor() {  }
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

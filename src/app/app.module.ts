@@ -8,6 +8,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { SearchComponent } from './components/search/search.component';
+import { DropSoftComponent } from './components/drop-soft/drop-soft.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SearchComponent } from './components/search/search.component';
     FooterComponent,
     HomeComponent,
     DropdownComponent,
-    SearchComponent
+    SearchComponent,
+    DropSoftComponent
   ],
   imports: [
     BrowserModule,
