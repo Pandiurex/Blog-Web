@@ -131,7 +131,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"image\" *ngFor=\"let item of images, let i=index\" class=\"image\">\n    <img src=\"../../../assets/{{item.img}}.jpg\" alt=\"software\" class=\"imagen\">\n    </div>\n";
+    __webpack_exports__["default"] = "<div class=\"image\" *ngFor=\"let item of images, let i=index\" class=\"image\">\n    <img src=\"assets/{{item.img}}.jpg\" alt=\"software\" class=\"imagen\">\n    </div>\n";
     /***/
   },
 

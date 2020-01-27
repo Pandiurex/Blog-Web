@@ -84,7 +84,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"image\" *ngFor=\"let item of images, let i=index\" class=\"image\">\n    <img src=\"../../../assets/{{item.img}}.jpg\" alt=\"software\" class=\"imagen\">\n    </div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"image\" *ngFor=\"let item of images, let i=index\" class=\"image\">\n    <img src=\"assets/{{item.img}}.jpg\" alt=\"software\" class=\"imagen\">\n    </div>\n");
 
 /***/ }),
 
