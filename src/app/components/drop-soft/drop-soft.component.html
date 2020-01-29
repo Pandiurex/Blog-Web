@@ -13,7 +13,7 @@
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <ul class="list">
       <li *ngFor="let myMenu of menu">
-        <a class="dropdown-item" href="#">
+       <a class="dropdown-item" [routerLink]=myMenu.software>
           {{ myMenu["software"] }}
         </a>
       </li>

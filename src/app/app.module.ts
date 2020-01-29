@@ -12,6 +12,7 @@ import { DropSoftComponent } from './components/drop-soft/drop-soft.component';
 import { ImagesComponent } from './components/images/images.component';
 import { WindowsComponent } from './components/windows/windows.component';
 import { LinuxComponent } from './components/linux/linux.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LinuxComponent } from './components/linux/linux.component';
     DropSoftComponent,
     ImagesComponent,
     WindowsComponent,
-    LinuxComponent
+    LinuxComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
