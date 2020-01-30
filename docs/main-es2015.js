@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"dropdown menu\">\n  <button\n    class=\"btn btn-secondary dropdown-toggle\"\n    type=\"button\"\n    id=\"dropdownMenuButton\"\n    data-toggle=\"dropdown\"\n    aria-haspopup=\"true\"\n    aria-expanded=\"false\"\n  >\n    Software\n  </button>\n\n  <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">\n    <ul class=\"list\">\n      <li *ngFor=\"let myMenu of menu\">\n        <a class=\"dropdown-item\" href=\"#\">\n          {{ myMenu[\"software\"] }}\n        </a>\n      </li>\n    </ul>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"dropdown menu\">\n  <button\n    class=\"btn btn-secondary dropdown-toggle\"\n    type=\"button\"\n    id=\"dropdownMenuButton\"\n    data-toggle=\"dropdown\"\n    aria-haspopup=\"true\"\n    aria-expanded=\"false\"\n  >\n    Software\n  </button>\n\n  <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">\n    <ul class=\"list\">\n      <li *ngFor=\"let myMenu of menu\">\n       <a class=\"dropdown-item\" [routerLink]=myMenu.software>\n          {{ myMenu[\"software\"] }}\n        </a>\n      </li>\n    </ul>\n  </div>\n</div>");
 
 /***/ }),
 
@@ -111,6 +111,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"search\">\n    <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n</div>\n\n\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/services/services.component.html":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/services/services.component.html ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <div class=\"image\">\n    <img src=\"assets/servicios.jpg\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Servicios</h1>\n\n      <p>\n        Los servicios a usuarios se brindan, básicamente, por medio de los\n        llamados Programas del Sistema, mientras que a los programas se les\n        brindan a través de las Llamadas al Sistema. Los programas del sistema\n        constituyen una colección más o menos grande de programas (no funciones\n        o subrutinas) suministradas por el fabricante (u otra empresa) que\n        permite realizar operaciones que son comunes a diferentes usuarios,\n        brindando un ambiente más adecuado para el desarrollo y explotación de\n        aplicaciones. Los programas del sistema pueden ser divididos en varias\n        categorías, aunque esto también depende de cada sistema operativo.\n        Algunos posibles grupos serian : Manipulación de ficheros (crear,\n        eliminar, renombrar, imprimir, etc.), obtención de información de estado\n        (fecha, hora, memoria disponible, espacio en disco, etc.), editores de\n        texto, etc. En resumen, los programas del sistema son aquellos que\n        ejecutan las acciones descritas en los comandos de éste o que aparecen\n        en los menús en el caso de las interfaces gráficas.\n      </p>\n\n      <h1>Servicios Windows</h1>\n      <div>\n        <img src=\"assets/win-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n\n      <p>\n        Para ver los servicios en windows, podemos descargar\n        <a href=\"https://drive.google.com/open?id=1O0IYUOfMcEDnmxsYC4yZk28B1Bcj-Ce1\" target=\"blank\">este programa</a> el cual esta hecho en lenguaje C#, aqui\n        podremos ver los servicios que esta ejecutando windows, en forma de\n        lista o seleccionar de uno en uno\n      </p>\n\n      <div>\n        <img src=\"assets/servicios1.jpg\" alt=\"software\" />\n      </div>\n      <p>Aqui podemos la lista completa de servicios</p>\n      <div>\n        <img src=\"assets/servicios2.jpg\" alt=\"software\" />\n      </div>\n      <p>Este es el codigo del programa</p>\n      <div>\n        <img src=\"assets/servicios3.jpg\" alt=\"software\" />\n      </div>\n      <h1>Servicios de Linux</h1>\n\n      <div>\n        <img src=\"assets/linux-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n\n      <p>\n        Para ver los servicios en Linux, podemos descargar\n        <a href=\"https://drive.google.com/file/d/1XYOAD4m2PMzohSKZu4l_8td43DaGz-x0/view?usp=sharing\" target=\"blank\">este script</a>, lo unico que debemos ahcer es configurarlo\n        para correrlo en terminal lo que nos mostrara es lo siguiente\n      </p>\n      <div>\n        <img\n          src=\"assets/servicios-lin (1).jpg\"\n          alt=\"software\"\n          class=\"service-img\"\n        />\n      </div>\n      <p>\n        Esta es la lista de servicios, daemons y procesos con los que esta\n        trabajando linux\n      </p>\n      <div>\n        <img src=\"assets/servicios-lin (2).jpg\" alt=\"software\" class=\"turn\" />\n      </div>\n      <p>Si deseas ejecutarlo en consola funciona de igual manera</p>\n      <div>\n        <img src=\"assets/servicios-lin (3).jpg\" alt=\"software\" class=\"turn\" />\n      </div>\n      <p>\n        El comando <a href=\"\">services --status-all</a> te muestra todos los servicios\n        en la consola, tu puedes filtrarlos por los que estan activos, si\n        quieres eliminar alguno, o si quieres ejecutar uno nuevo\n      </p>\n      <div>\n        <img\n          src=\"assets/servicios-lin (4).jpg\"\n          alt=\"software\"\n          class=\"service-img\"\n        />\n      </div>\n      <p>\n        Primera parte de servicios y procesos\n      </p>\n      <div>\n        <img\n          src=\"assets/servicios-lin (5).jpg\"\n          alt=\"software\"\n          class=\"service-img\"\n        />\n      </div>\n      <p>\n        Todos estos son listas de procesos, servvicios y daemons que se pueden\n        encontrar en linux, estan los que se estan ejecutando, los que estan en\n        stand by y los que no se ejecutan, pueden cambiar de status dependiendo\n        la orden que le quieras dar\n      </p>\n      <div>\n        <img\n          src=\"assets/servicios-lin (6).jpg\"\n          alt=\"software\"\n          class=\"service-img\"\n        />\n      </div>\n      <p>\n        Este comando de aqui sirve tanto en consola como un programa ejecutable,\n        solo hay que guardarlo en un arhcivo de texto y agregarle la terminacion\n        .sh\n      </p>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -398,6 +411,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
 /* harmony import */ var _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/windows/windows.component */ "./src/app/components/windows/windows.component.ts");
 /* harmony import */ var _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/linux/linux.component */ "./src/app/components/linux/linux.component.ts");
+/* harmony import */ var _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/services/services.component */ "./src/app/components/services/services.component.ts");
+
 
 
 
@@ -408,6 +423,7 @@ const routes = [
     { path: 'home', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
     { path: 'Linux', component: _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_5__["LinuxComponent"] },
     { path: 'Windows', component: _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_4__["WindowsComponent"] },
+    { path: 'Servicios', component: _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__["ServicesComponent"] },
     { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 let AppRoutingModule = class AppRoutingModule {
@@ -491,6 +507,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_images_images_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/images/images.component */ "./src/app/components/images/images.component.ts");
 /* harmony import */ var _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/windows/windows.component */ "./src/app/components/windows/windows.component.ts");
 /* harmony import */ var _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/linux/linux.component */ "./src/app/components/linux/linux.component.ts");
+/* harmony import */ var _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/services/services.component */ "./src/app/components/services/services.component.ts");
+
 
 
 
@@ -519,7 +537,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _components_drop_soft_drop_soft_component__WEBPACK_IMPORTED_MODULE_10__["DropSoftComponent"],
             _components_images_images_component__WEBPACK_IMPORTED_MODULE_11__["ImagesComponent"],
             _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__["WindowsComponent"],
-            _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"]
+            _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"],
+            _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -564,6 +583,9 @@ __webpack_require__.r(__webpack_exports__);
 let DropSoftComponent = class DropSoftComponent {
     constructor() {
         this.menu = [
+            {
+                software: 'Servicios'
+            },
             {
                 software: 'Free Office'
             },
@@ -844,6 +866,50 @@ SearchComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./search.component.css */ "./src/app/components/search/search.component.css")).default]
     })
 ], SearchComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/services/services.component.css":
+/*!************************************************************!*\
+  !*** ./src/app/components/services/services.component.css ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n    height: auto;\n    width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0; \n}\n\n.edicion h2, h1 {\n    margin-top: 50px;\n    text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img{\n  width: 40%;\n  height: auto;\n}\n\n.turn {\n  width: 30%;\n  -webkit-transform: rotate(90deg);\n          transform: rotate(90deg);\n  margin: 75px 0;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zZXJ2aWNlcy9zZXJ2aWNlcy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtJQUNJLFlBQVk7SUFDWixVQUFVO0FBQ2Q7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQiwwQkFBMEI7QUFDOUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGdDQUF3QjtVQUF4Qix3QkFBd0I7RUFDeEIsY0FBYztBQUNoQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2VydmljZXMvc2VydmljZXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDgwMHB4O1xufVxuXG4ubG9nbyB7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIHdpZHRoOiAyNSU7XG59XG5cbi5pbWFnZW4ge1xuICB3aWR0aDogNTAlO1xuICBoZWlnaHQ6IDUwMHB4O1xufVxuXG4uaW1hZ2Uge1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZWRpdCB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5lZGljaW9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzEzNTI4NTtcbiAgY29sb3I6ICNmZmZmZmY7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmVkaWNpb24gcCB7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgbWFyZ2luOiA1MHB4IDA7IFxufVxuXG4uZWRpY2lvbiBoMiwgaDEge1xuICAgIG1hcmdpbi10b3A6IDUwcHg7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG59XG5cbi5lZGljaW9uIGxpIHtcbiAgYm9yZGVyLXJhZGl1czogMnB4O1xuICBib3JkZXItc3R5bGU6IGRvdWJsZTtcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XG4gIG1hcmdpbjogMjBweCAwO1xuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uc2VydmljZS1pbWd7XG4gIHdpZHRoOiA0MCU7XG4gIGhlaWdodDogYXV0bztcbn1cblxuLnR1cm4ge1xuICB3aWR0aDogMzAlO1xuICB0cmFuc2Zvcm06IHJvdGF0ZSg5MGRlZyk7XG4gIG1hcmdpbjogNzVweCAwO1xufVxuIl19 */");
+
+/***/ }),
+
+/***/ "./src/app/components/services/services.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/components/services/services.component.ts ***!
+  \***********************************************************/
+/*! exports provided: ServicesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServicesComponent", function() { return ServicesComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ServicesComponent = class ServicesComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-services',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./services.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/services/services.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./services.component.css */ "./src/app/components/services/services.component.css")).default]
+    })
+], ServicesComponent);
 
 
 
