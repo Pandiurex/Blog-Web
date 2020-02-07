@@ -62,6 +62,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/free-office/free-office.component.html":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/free-office/free-office.component.html ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <div class=\"image\">\n    <img src=\"assets/libre-office.jpg\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Free Office - Libre Office</h1>\n\n      <p>\n        LibreOffice es un Software Libre de ofimática el cual incluye procesador\n        de texto, planilla de cálculo y editor de presentaciones entre otras. Es\n        impulsado y desarrollado por la misma comunidad, bajo un proyecto de la\n        organización sin fines de lucro, llamada The Document Foundation.\n        07/08/2015 Noticias Software Actualizado el: 10/08/2015 LibreOffice\n        nació como un desprendimiento de OpenOffice y es desarrollado por\n        usuarios compartiendo su trabajo con el mundo de manera no restrictiva.\n        Recientemente se liberó la nueva versión 5 de LibreOffice. Esta nueva\n        versión incluye opciones de compatibilidad con Windows 10 y entornos de\n        64 bits, ojo, no solo es compatible con Windows, también es compatible\n        con plataformas Linux y OS X. La nueva versión tiene una nueva interfaz\n        de usuario, que según sus creadores, permite una vista más limpia y un\n        mejor aprovechamiento de la pantalla. Se puede destacar que también a\n        mejorado su compatibilidad con Microsoft Office y con Apple iWork. Posee\n        alrededor de 80 millones de usuarios, en esta versión han logrado mayor\n        estabilidad y prestaciones. Esta misma base, se utilizará para la\n        versión Android, que por el momento, es sólo visor de archivos pero que\n        incorporará la posibilidad de editar documentos en el corto plazo.\n        También avanza, el desarrollo de una versión basada en la Web al estilo\n        de lo que ofrecen Google y Microsoft.\n      </p>\n\n      <h1>Free Office Windows</h1>\n      <div>\n        <img src=\"assets/win-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n\n      <p>\n        Para ver poder instalar libre office, debemos abrir nuestro navegador y\n        buscamos LibreOffice en nuestro servicio de busqueda preferida, ya sea\n        Google, Yahoo, Bing, etc, yo les proporciono el link aqui:\n\n        <a href=\"https://es.libreoffice.org\" target=\"blank\">Libre Office</a>\n      </p>\n      <div>\n        <img src=\"assets/windows-free-office (1).jpg\" alt=\"software\" />\n      </div>\n      <p>\n        En esta pantalla podremos ver lass descripcion del programa, y\n        simplemente le damos a la pestaña de descarga\n      </p>\n\n      <div>\n        <img src=\"assets/windows-free-office (2).jpg\" alt=\"software\" />\n      </div>\n      <p>\n        Seleccionamos la version del sistema operativo que tenemos, ya sea de 64\n        o 32 bits, y le damos en descargar\n      </p>\n      <div>\n        <img src=\"assets/windows-free-office (3).jpg\" alt=\"software\" />\n      </div>\n      <p>\n        Una vez descargado, le damos doble clic al archivo y nos saldra una\n        ventana de instalacion como esta, le damos siguiente\n      </p>\n      <div>\n        <img src=\"assets/windows-free-office (4).jpg\" alt=\"software\" />\n      </div>\n      <p>\n        Aqui seleccionamos la opcion de instalacion tipica para que le\n        instalador haga la configuracion por nosotros y le damos siguiente y\n        comenzara la instalacion del programa\n      </p>\n      <div>\n        <img src=\"assets/windows-free-office (5).jpg\" alt=\"software\" />\n      </div>\n      <p>\n        Una vez terminado la instalacion nos aparecera en nuestro escritorio el\n        icono del programa, simplemente le damos doble click y podemos comenzar\n        a trabajar en este\n      </p>\n      <div>\n        <img src=\"assets/windows-free-office (1).png\" alt=\"software\" />\n      </div>\n      <h1>Servicios de Linux</h1>\n\n      <div>\n        <img src=\"assets/linux-logo.jpg\" alt=\"software\" />\n      </div>\n\n      <p>\n        Para instalar libre office en linux usaremos la mas sencilla: los\n        sistemas linux mas comunes cuentan con un gestor de aplicaciones o un\n        tienda tambien llamada asi la cual cuenta con muchas aplicaciones que\n        podemos instalar directamente sin meternos en consola, simplemente la\n        abrimos\n      </p>\n      <div>\n        <img src=\"assets/linux-free-office (2).png\" alt=\"software\" />\n\n        <p>\n          En donde se encuentre la opcion de busqueda, insertamos el nombre de\n          \"Libre Office\" y nos aparecera la opcion adecuada, la unica diferencia\n          es que aqui nos aparecen de manera individual asi que instalaremos de\n          uno a uno los servicios de libre office\n        </p>\n        <div>\n          <img src=\"assets/linux-free-office (3).png\" alt=\"software\" />\n        </div>\n        <p>\n          Seleccionamos la prrimera que en mi caso la que falta es el de la hoja\n          de calculalo, y simplemente le damos en instalar, automaticamente\n          comenzara con la instalacion del sistema\n        </p>\n        <div>\n          <img src=\"assets/linux-free-office (4).png\" alt=\"software\" />\n        </div>\n        <p>\n          Comenzara a instalar el paquete\n        </p>\n        <div>\n          <img src=\"assets/linux-free-office (5).png\" alt=\"software\" />\n        </div>\n        <p>\n          Una vez terminado de instlar, nos aparecera la opcion de lanzar o\n          ejecutar, simplemente le damos click y se nos abrira la hoja de\n          calculo\n        </p>\n        <div>\n          <img src=\"assets/linux-free-office (6).png\" alt=\"software\" />\n        </div>\n        <p>\n          Aqui podemos ver la hoja de calculo funcionando y listo¡ es tan\n          sencillo como eso, ahora solo resta instalar el resto y tendras libre\n          office instalado en tu sistema\n        </p>\n        <div>\n          <img src=\"assets/linux-free-office (1).png\" alt=\"software\" />\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/home/home.component.html":
 /*!*******************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/home/home.component.html ***!
@@ -412,6 +425,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/windows/windows.component */ "./src/app/components/windows/windows.component.ts");
 /* harmony import */ var _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/linux/linux.component */ "./src/app/components/linux/linux.component.ts");
 /* harmony import */ var _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/services/services.component */ "./src/app/components/services/services.component.ts");
+/* harmony import */ var _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/free-office/free-office.component */ "./src/app/components/free-office/free-office.component.ts");
+
 
 
 
@@ -424,6 +439,7 @@ const routes = [
     { path: 'Linux', component: _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_5__["LinuxComponent"] },
     { path: 'Windows', component: _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_4__["WindowsComponent"] },
     { path: 'Servicios', component: _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__["ServicesComponent"] },
+    { path: 'Free-Office', component: _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_7__["FreeOfficeComponent"] },
     { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 let AppRoutingModule = class AppRoutingModule {
@@ -508,6 +524,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/windows/windows.component */ "./src/app/components/windows/windows.component.ts");
 /* harmony import */ var _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/linux/linux.component */ "./src/app/components/linux/linux.component.ts");
 /* harmony import */ var _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/services/services.component */ "./src/app/components/services/services.component.ts");
+/* harmony import */ var _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/free-office/free-office.component */ "./src/app/components/free-office/free-office.component.ts");
+
 
 
 
@@ -538,7 +556,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _components_images_images_component__WEBPACK_IMPORTED_MODULE_11__["ImagesComponent"],
             _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__["WindowsComponent"],
             _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"],
-            _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"]
+            _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"],
+            _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -587,7 +606,7 @@ let DropSoftComponent = class DropSoftComponent {
                 software: 'Servicios'
             },
             {
-                software: 'Free Office'
+                software: 'Free-Office'
             },
             {
                 software: 'Java'
@@ -679,6 +698,50 @@ DropdownComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./dropdown.component.css */ "./src/app/components/dropdown/dropdown.component.css")).default]
     })
 ], DropdownComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/free-office/free-office.component.css":
+/*!******************************************************************!*\
+  !*** ./src/app/components/free-office/free-office.component.css ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n    height: auto;\r\n    width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0; \r\n}\r\n\r\n.edicion h2, h1 {\r\n    margin-top: 50px;\r\n    text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img{\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mcmVlLW9mZmljZS9mcmVlLW9mZmljZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtJQUNJLFlBQVk7SUFDWixVQUFVO0FBQ2Q7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQiwwQkFBMEI7QUFDOUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9mcmVlLW9mZmljZS9mcmVlLW9mZmljZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4taW1hZ2VuIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDgwMHB4O1xyXG59XHJcblxyXG4ubG9nbyB7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICB3aWR0aDogMjUlO1xyXG59XHJcblxyXG4uaW1hZ2VuIHtcclxuICB3aWR0aDogNTAlO1xyXG4gIGhlaWdodDogNTAwcHg7XHJcbn1cclxuXHJcbi5pbWFnZSB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaXQge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmVkaWNpb24gcCB7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIG1hcmdpbjogNTBweCAwOyBcclxufVxyXG5cclxuLmVkaWNpb24gaDIsIGgxIHtcclxuICAgIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxufVxyXG5cclxuLmVkaWNpb24gbGkge1xyXG4gIGJvcmRlci1yYWRpdXM6IDJweDtcclxuICBib3JkZXItc3R5bGU6IGRvdWJsZTtcclxuICBib3JkZXItY29sb3I6IHJlZDtcclxuICBtYXJnaW46IDIwcHggMDtcclxuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnNlcnZpY2UtaW1ne1xyXG4gIHdpZHRoOiA0MCU7XHJcbiAgaGVpZ2h0OiBhdXRvO1xyXG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/components/free-office/free-office.component.ts":
+/*!*****************************************************************!*\
+  !*** ./src/app/components/free-office/free-office.component.ts ***!
+  \*****************************************************************/
+/*! exports provided: FreeOfficeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FreeOfficeComponent", function() { return FreeOfficeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let FreeOfficeComponent = class FreeOfficeComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+FreeOfficeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-free-office',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./free-office.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/free-office/free-office.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./free-office.component.css */ "./src/app/components/free-office/free-office.component.css")).default]
+    })
+], FreeOfficeComponent);
 
 
 
