@@ -13,6 +13,7 @@ import { ImagesComponent } from './components/images/images.component';
 import { WindowsComponent } from './components/windows/windows.component';
 import { LinuxComponent } from './components/linux/linux.component';
 import { ServicesComponent } from './components/services/services.component';
+import { FreeOfficeComponent } from './components/free-office/free-office.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ServicesComponent } from './components/services/services.component';
     ImagesComponent,
     WindowsComponent,
     LinuxComponent,
-    ServicesComponent
+    ServicesComponent,
+    FreeOfficeComponent
   ],
   imports: [
     BrowserModule,

@@ -11,7 +11,7 @@ export class DropSoftComponent implements OnInit {
       software: 'Servicios'
     },
     {
-      software: 'Free Office'
+      software: 'Free-Office'
     },
     {
       software: 'Java'
