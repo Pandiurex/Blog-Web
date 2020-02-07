@@ -101,6 +101,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/java/java.component.html":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/java/java.component.html ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"col-sm-12\">\n  <div class=\"image\">\n    <img src=\"assets/java.jpg\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Java - JDK</h1>\n\n      <p>\n        Java es un lenguaje de programación y una plataforma informática\n        comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas\n        aplicaciones y sitios web que no funcionarán a menos que tenga Java\n        instalado y cada día se crean más. Java es rápido, seguro y fiable.\n        Desde portátiles hasta centros de datos, desde consolas para juegos\n        hasta súper computadoras, desde teléfonos móviles hasta Internet, Java\n        está en todas partes. ¿La descarga de Java es gratuita? Sí, la descarga\n        de Java es gratuita. Puede obtener la última versión en java.com. Si\n        está diseñando un dispositivo de consumo o integrado y le gustaría\n        incluir Java, póngase en contacto con Oracle para solicitar información\n        sobre cómo incluir Java en su dispositivo. ¿Por qué debería actualizarme\n        a la versión más reciente de Java? La versión más reciente de Java\n        contiene importantes mejoras para el rendimiento, estabilidad y\n        seguridad de las aplicaciones Java que se ejecutan en su equipo. La\n        instalación de la actualización gratuita garantiza que sus aplicaciones\n        Java sigan ejecutándose de forma segura y eficaz.\n      </p>\n      <div>\n        <img src=\"assets/win-logo.jpg\" alt=\"software\" class=\"logo\" />\n      </div>\n      <p>\n        Primero que nada lo que se tiene que hacer es descargar el JDK, es el\n        kit de desarrollo de java con el vamos a poder compilar nuestros codigos\n        Asi que seleccionaremos la verion de nuestro sistema operativo en la\n        siguiente página.\n        <a\n          href=\"https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html\"\n          target=\"blank\"\n          >Java SDK</a\n        >\n      </p>\n\n      <div>\n        <img src=\"assets/java-win (1).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Una vez descargado, le damos doble clic al archivo y nos saldra una\n        ventana de instalacion como esta, le damos siguiente\n      </p>\n      <div>\n        <img src=\"assets/java-win (2).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Le daremos siguiente, y comenzara la instalacion de los paquetes\n        necesarios.\n      </p>\n      <div>\n        <img src=\"assets/java-win (3).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Una vez instalado, proseguiremos a instalar un IDE, que es una interfaz\n        en la que podremos trabajar y compilar nuestros codigos. En nuestro caso\n        usaremos Netbeans que es el mas sencillo, simplemente lo descargamos e\n        instalamos, aqui está el enlace de descarga\n        <a href=\"https://netbeans.org\" target=\"blank\">Netbeans</a>\n      </p>\n      <div>\n        <img src=\"assets/java-win (9).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Una vez instalado lo unico que hacemos es abrir Netbeans\n      </p>\n      <div>\n        <img src=\"assets/java-win (4).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Abrimos el proyecto, el cual te dejare aqui en el siguiente enlace\n        <a\n          href=\"https://drive.google.com/open?id=1iUUWIF8tjnpPWvxXmgmYqxbr5A60DXvb\"\n          >Punto de Venta</a\n        >\n        solucionamos los problemas del proyecto\n      </p>\n      <div>\n        <img src=\"assets/java-win (5).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Abrimos el codigo del proyecto y simplemente le damos en compilar\n      </p>\n      <div>\n        <img src=\"assets/java-win (6).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Una vez compilado podremos observar una interfaz como esta, con la cual\n        significa que se cargo correctamente\n      </p>\n      <div>\n        <img src=\"assets/java-win (7).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Y ya podremos interactuar con el sistema\n      </p>\n      <div>\n        <img src=\"assets/java-win (8).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <h1>Servicios de Linux</h1>\n\n      <div>\n        <img src=\"assets/linux-logo.jpg\" alt=\"software\" class=\"imagen\" />\n      </div>\n\n      <p>\n        Para poder hacer la instalacion en linux, debemos utilizar la terminal\n        para instalar el kit de desarrollo de java y java como tal, primero\n        instalaremos java, asi que usaremos el siguiente comando: sudo apt\n        install default-jre para instalar java\n      </p>\n      <div>\n        <img src=\"assets/java-lin (1).png\" alt=\"software\" class=\"imagen\" />\n\n        <p>\n          En algun punto nos preguntara que si deseamos continuar con la\n          instalacion asi que lo que haremos es darle \"y\" para continuar con la\n          instalacion\n        </p>\n        <div>\n          <img src=\"assets/java-lin (2).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Comprobamos la version de java para ver si la instalacion es correcta\n          asi que insertaremos el siguiente comando: java -version\n        </p>\n        <div>\n          <img src=\"assets/java-lin (3).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Ahora instalamos el jdk para utilizar netbeans\n        </p>\n        <div>\n          <img src=\"assets/java-lin (4).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Abrimos netbeans y el codigo del proyecto y compilamos como en\n          windows, si nos salen errores del proyecto simplemente los\n          solucionamos\n        </p>\n        <div>\n          <img src=\"assets/java-lin (5).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Ahora simplemente interactuamos con el sistema de punto venta de la\n          misma forma que lo hemos hecho con el anterior\n        </p>\n        <div>\n          <img src=\"assets/java-lin (6).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Y listo, ya tenemos el punto de venta de JAVA¡\n        </p>\n        <div>\n          <img src=\"assets/java-lin (7).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/linux/linux.component.html":
 /*!*********************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/linux/linux.component.html ***!
@@ -426,6 +439,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/linux/linux.component */ "./src/app/components/linux/linux.component.ts");
 /* harmony import */ var _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/services/services.component */ "./src/app/components/services/services.component.ts");
 /* harmony import */ var _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/free-office/free-office.component */ "./src/app/components/free-office/free-office.component.ts");
+/* harmony import */ var _components_java_java_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/java/java.component */ "./src/app/components/java/java.component.ts");
+
 
 
 
@@ -440,6 +455,7 @@ const routes = [
     { path: 'Windows', component: _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_4__["WindowsComponent"] },
     { path: 'Servicios', component: _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__["ServicesComponent"] },
     { path: 'Free-Office', component: _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_7__["FreeOfficeComponent"] },
+    { path: 'Java', component: _components_java_java_component__WEBPACK_IMPORTED_MODULE_8__["JavaComponent"] },
     { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 let AppRoutingModule = class AppRoutingModule {
@@ -525,6 +541,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/linux/linux.component */ "./src/app/components/linux/linux.component.ts");
 /* harmony import */ var _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/services/services.component */ "./src/app/components/services/services.component.ts");
 /* harmony import */ var _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/free-office/free-office.component */ "./src/app/components/free-office/free-office.component.ts");
+/* harmony import */ var _components_java_java_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/java/java.component */ "./src/app/components/java/java.component.ts");
+
 
 
 
@@ -557,7 +575,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__["WindowsComponent"],
             _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"],
             _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"],
-            _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"]
+            _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"],
+            _components_java_java_component__WEBPACK_IMPORTED_MODULE_16__["JavaComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -712,7 +731,7 @@ DropdownComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n    height: auto;\r\n    width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0; \r\n}\r\n\r\n.edicion h2, h1 {\r\n    margin-top: 50px;\r\n    text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img{\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mcmVlLW9mZmljZS9mcmVlLW9mZmljZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtJQUNJLFlBQVk7SUFDWixVQUFVO0FBQ2Q7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQiwwQkFBMEI7QUFDOUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9mcmVlLW9mZmljZS9mcmVlLW9mZmljZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4taW1hZ2VuIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDgwMHB4O1xyXG59XHJcblxyXG4ubG9nbyB7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICB3aWR0aDogMjUlO1xyXG59XHJcblxyXG4uaW1hZ2VuIHtcclxuICB3aWR0aDogNTAlO1xyXG4gIGhlaWdodDogNTAwcHg7XHJcbn1cclxuXHJcbi5pbWFnZSB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaXQge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmVkaWNpb24gcCB7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIG1hcmdpbjogNTBweCAwOyBcclxufVxyXG5cclxuLmVkaWNpb24gaDIsIGgxIHtcclxuICAgIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxufVxyXG5cclxuLmVkaWNpb24gbGkge1xyXG4gIGJvcmRlci1yYWRpdXM6IDJweDtcclxuICBib3JkZXItc3R5bGU6IGRvdWJsZTtcclxuICBib3JkZXItY29sb3I6IHJlZDtcclxuICBtYXJnaW46IDIwcHggMDtcclxuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnNlcnZpY2UtaW1ne1xyXG4gIHdpZHRoOiA0MCU7XHJcbiAgaGVpZ2h0OiBhdXRvO1xyXG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n    height: auto;\n    width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0; \n}\n\n.edicion h2, h1 {\n    margin-top: 50px;\n    text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img{\n  width: 40%;\n  height: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mcmVlLW9mZmljZS9mcmVlLW9mZmljZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtJQUNJLFlBQVk7SUFDWixVQUFVO0FBQ2Q7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQiwwQkFBMEI7QUFDOUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9mcmVlLW9mZmljZS9mcmVlLW9mZmljZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4taW1hZ2VuIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogODAwcHg7XG59XG5cbi5sb2dvIHtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgd2lkdGg6IDI1JTtcbn1cblxuLmltYWdlbiB7XG4gIHdpZHRoOiA1MCU7XG4gIGhlaWdodDogNTAwcHg7XG59XG5cbi5pbWFnZSB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5lZGl0IHtcbiAgcGFkZGluZzogMDtcbn1cblxuLmVkaWNpb24ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xuICBjb2xvcjogI2ZmZmZmZjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uZWRpY2lvbiBwIHtcbiAgZm9udC1zaXplOiAyNXB4O1xuICBtYXJnaW46IDUwcHggMDsgXG59XG5cbi5lZGljaW9uIGgyLCBoMSB7XG4gICAgbWFyZ2luLXRvcDogNTBweDtcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbn1cblxuLmVkaWNpb24gbGkge1xuICBib3JkZXItcmFkaXVzOiAycHg7XG4gIGJvcmRlci1zdHlsZTogZG91YmxlO1xuICBib3JkZXItY29sb3I6IHJlZDtcbiAgbWFyZ2luOiAyMHB4IDA7XG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcbiAgZm9udC1zaXplOiAyNXB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5zZXJ2aWNlLWltZ3tcbiAgd2lkdGg6IDQwJTtcbiAgaGVpZ2h0OiBhdXRvO1xufSJdfQ== */");
 
 /***/ }),
 
@@ -841,6 +860,50 @@ ImagesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./images.component.css */ "./src/app/components/images/images.component.css")).default]
     })
 ], ImagesComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/java/java.component.css":
+/*!****************************************************!*\
+  !*** ./src/app/components/java/java.component.css ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n    height: auto;\r\n    width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0; \r\n}\r\n\r\n.edicion h2, h1 {\r\n    margin-top: 50px;\r\n    text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img{\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9qYXZhL2phdmEuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0FBQ2Y7O0FBRUE7SUFDSSxZQUFZO0lBQ1osVUFBVTtBQUNkOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0VBQ2Qsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7QUFDaEI7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsMEJBQTBCO0FBQzlCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZCIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvamF2YS9qYXZhLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi1pbWFnZW4ge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogODAwcHg7XHJcbn1cclxuXHJcbi5sb2dvIHtcclxuICAgIGhlaWdodDogYXV0bztcclxuICAgIHdpZHRoOiAyNSU7XHJcbn1cclxuXHJcbi5pbWFnZW4ge1xyXG4gIHdpZHRoOiA1MCU7XHJcbiAgaGVpZ2h0OiA1MDBweDtcclxufVxyXG5cclxuLmltYWdlIHtcclxuICBwYWRkaW5nOiAwO1xyXG59XHJcblxyXG4uZWRpdCB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaWNpb24ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxMzUyODU7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uZWRpY2lvbiBwIHtcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgbWFyZ2luOiA1MHB4IDA7IFxyXG59XHJcblxyXG4uZWRpY2lvbiBoMiwgaDEge1xyXG4gICAgbWFyZ2luLXRvcDogNTBweDtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG59XHJcblxyXG4uZWRpY2lvbiBsaSB7XHJcbiAgYm9yZGVyLXJhZGl1czogMnB4O1xyXG4gIGJvcmRlci1zdHlsZTogZG91YmxlO1xyXG4gIGJvcmRlci1jb2xvcjogcmVkO1xyXG4gIG1hcmdpbjogMjBweCAwO1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uc2VydmljZS1pbWd7XHJcbiAgd2lkdGg6IDQwJTtcclxuICBoZWlnaHQ6IGF1dG87XHJcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/components/java/java.component.ts":
+/*!***************************************************!*\
+  !*** ./src/app/components/java/java.component.ts ***!
+  \***************************************************/
+/*! exports provided: JavaComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JavaComponent", function() { return JavaComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let JavaComponent = class JavaComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+JavaComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-java',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./java.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/java/java.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./java.component.css */ "./src/app/components/java/java.component.css")).default]
+    })
+], JavaComponent);
 
 
 

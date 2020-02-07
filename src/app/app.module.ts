@@ -14,6 +14,7 @@ import { WindowsComponent } from './components/windows/windows.component';
 import { LinuxComponent } from './components/linux/linux.component';
 import { ServicesComponent } from './components/services/services.component';
 import { FreeOfficeComponent } from './components/free-office/free-office.component';
+import { JavaComponent } from './components/java/java.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FreeOfficeComponent } from './components/free-office/free-office.compon
     WindowsComponent,
     LinuxComponent,
     ServicesComponent,
-    FreeOfficeComponent
+    FreeOfficeComponent,
+    JavaComponent
   ],
   imports: [
     BrowserModule,
