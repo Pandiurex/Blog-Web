@@ -20,6 +20,9 @@ export class DropSoftComponent implements OnInit {
       software: 'Django'
     },
     {
+      software: 'Laravel'
+    },
+    {
       software: 'Ruby on Rails'
     },
     {
@@ -27,9 +30,6 @@ export class DropSoftComponent implements OnInit {
     },
     {
       software: 'VideoJuego'
-    },
-    {
-      software: 'Django'
     },
     {
       software: 'Samba'

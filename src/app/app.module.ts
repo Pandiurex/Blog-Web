@@ -14,7 +14,12 @@ import { WindowsComponent } from './components/windows/windows.component';
 import { LinuxComponent } from './components/linux/linux.component';
 import { ServicesComponent } from './components/services/services.component';
 import { FreeOfficeComponent } from './components/free-office/free-office.component';
+<<<<<<< HEAD
 import { JavaComponent } from './components/java/java.component';
+=======
+import { DjangoComponent } from './components/django/django.component';
+import { LaravelComponent } from './components/laravel/laravel.component';
+>>>>>>> Tarea-5
 
 @NgModule({
   declarations: [
@@ -30,7 +35,12 @@ import { JavaComponent } from './components/java/java.component';
     LinuxComponent,
     ServicesComponent,
     FreeOfficeComponent,
+<<<<<<< HEAD
     JavaComponent
+=======
+    DjangoComponent,
+    LaravelComponent
+>>>>>>> Tarea-5
   ],
   imports: [
     BrowserModule,
