@@ -36,6 +36,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/django/django.component.html":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/django/django.component.html ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <div class=\"image\">\n    <img src=\"assets/fjango-logo.png\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Django</h1>\n      <p>\n        Django es un framework de desarrollo web de código abierto, escrito en\n        Python, que respeta el patrón de diseño conocido como\n        Modelo–vista–template. Fue desarrollado en origen para gestionar varias\n        páginas orientadas a noticias de la World Company de Lawrence, Kansas, y\n        fue liberada al público bajo una licencia BSD en julio de 2005; el\n        framework fue nombrado en alusión al guitarrista de jazz gitano Django\n        Reinhardt. En junio de 2008 fue anunciado que la recién formada Django\n        Software Foundation se haría cargo de Django en el futuro. La meta\n        fundamental de Django es facilitar la creación de sitios web complejos.\n        Django pone énfasis en el re-uso, la conectividad y extensibilidad de\n        componentes, el desarrollo rápido y el principio No te repitas (DRY, del\n        inglés Don't Repeat Yourself). Python es usado en todas las partes del\n        framework, incluso en configuraciones, archivos, y en los modelos de\n        datos.\n      </p>\n      <h1>Caracteristicas Principales</h1>\n      Al igual que Ruby on Rails, otro popular framework de código abierto,\n      Django se usó en producción durante un tiempo antes de que se liberara al\n      público; fue desarrollado por Adrian Holovaty, Simon Willison, Jacob\n      Kaplan-Moss y Wilson Miner mientras trabajaban en World Online, y\n      originalmente se utilizó para administrar tres sitios web de noticias: The\n      Lawrence Journal-World, lawrence.com y KUsports.com. Los orígenes de\n      Django en la administración de páginas de noticias son evidentes en su\n      diseño, ya que proporciona una serie de características que facilitan el\n      desarrollo rápido de páginas orientadas a contenidos. Por ejemplo, en\n      lugar de requerir que los desarrolladores escriban controladores y vistas\n      para las áreas de administración de la página, Django proporciona una\n      aplicación incorporada para administrar los contenidos, que puede\n      incluirse como parte de cualquier página hecha con Django y que puede\n      administrar varias páginas a partir de una misma instalación; la\n      aplicación administrativa permite la creación, actualización y eliminación\n      de objetos de contenido, llevando un registro de todas las acciones\n      realizadas sobre cada uno, y proporciona una interfaz para administrar los\n      usuarios y los grupos de usuarios (incluyendo una asignación detallada de\n      permisos). La distribución principal de Django también aglutina\n      aplicaciones que proporcionan un sistema de comentarios, herramientas para\n      sindicar contenido via RSS y/o Atom, \"páginas planas\" que permiten\n      gestionar páginas de contenido sin necesidad de escribir controladores o\n      vistas para esas páginas, y un sistema de redirección de URLs. Otras\n      características de Django son:\n      <li>Un mapeador objeto-relacional.</li>\n      <li>\n        Aplicaciones \"enchufables\" que pueden instalarse en cualquier página\n        gestionada con Django.\n      </li>\n      <li>Una API de base de datos robusta.</li>\n      <li>\n        Un sistema incorporado de \"vistas genéricas\" que ahorra tener que\n        escribir la lógica de ciertas tareas comunes.\n      </li>\n      <li>\n        Un sistema extensible de plantillas basado en etiquetas, con herencia de\n        plantillas.\n      </li>\n      <li>\n        Un despachador de URLs basado en expresiones regulares.\n      </li>\n      <li>\n        Un sistema \"middleware\" para desarrollar características adicionales;\n        por ejemplo, la distribución principal de Django incluye componentes\n        middleware que proporcionan cacheo, compresión de la salida,\n        normalización de URLs, protección CSRF y soporte de sesiones.\n      </li>\n      <li>\n        Soporte de internacionalización, incluyendo traducciones incorporadas de\n        la interfaz de administración.\n      </li>\n      <li></li>\n      <li>\n        Documentación incorporada accesible a través de la aplicación\n        administrativa (incluyendo documentación generada automáticamente de los\n        modelos y las bibliotecas de plantillas añadidas por las aplicaciones).\n      </li>\n      Django también es una plataforma habitual que brinda multiples\n      herramientas\n      <h1>Django Windows</h1>\n      <div>\n        <img src=\"assets/win-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n\n      <p>\n        Para ver poder instalar Django, debemos abrir nuestro navegador y\n        buscamos LibreOffice en nuestro servicio de busqueda preferida, ya sea\n        Google, Yahoo, Bing, etc, yo les proporciono el link aqui:\n\n        <a href=\"https://www.djangoproject.com\" target=\"blank\">Django</a>\n      </p>\n      <div>\n        <img src=\"assets/django-linux (1).png\" alt=\"software\" />\n      </div>\n      <p>\n        En esta pantalla podremos ver las descripcion del programa, y\n        simplemente copiamos la parte que dice: python -m pip install Django\n      </p>\n\n      <div>\n        <img src=\"assets/django-linux (2).png\" alt=\"software\" />\n      </div>\n      <p>\n        Abrimos la consola de windows y pegamos el pip de arriba y comenzara la\n        instalacion de Django\n      </p>\n      <div>\n        <img src=\"assets/django-windows.png\" alt=\"software\" />\n      </div>\n      <p>\n        Y listo django quedara instalado en tu sistema\n      </p>\n\n      <h1>Django en Linux</h1>\n\n      <div>\n        <img src=\"assets/django-linux (1).png\" alt=\"software\" />\n      </div>\n\n      <p>\n        Para instalar Django en linux usaremos la forma mas sencilla: y de la\n        misma forma que en windows abrimos la pagina de django\n      </p>\n      <div>\n        <img src=\"assets/django-linux (2).png\" alt=\"software\" />\n\n        <p>\n          En esta pantalla podremos ver las descripcion del programa, y\n          simplemente copiamos la parte que dice: pip3 install Django==2.2.5\n        </p>\n        <div>\n          <img src=\"assets/django-linux (3).png\" alt=\"software\" />\n        </div>\n      <div>\n        <p>\n          Comprobamos si se instalo bien Django con el siguiente comando: python3 -m django --version\n        </p>\n        <div>\n          <img src=\"assets/django-linux (4).png\" alt=\"software\" />\n        </div>\n        <p>\n          Iniciamos un proyecto nuevo con el siguiente comando: django-admin startproject SSOR\n        </p>\n        <div>\n          <img src=\"assets/django-linux (5).png\" alt=\"software\" />\n        </div>\n        <p>\n          Una vez creado el proyecto simplemente accedemos a la carpeta del proyecto y ahora levantamos el servidor\n        </p>\n        <div>\n          <img src=\"assets/django-linux (6).png\" alt=\"software\" />\n        </div>\n        <p>\n          En esta pantalla podremos ver las descripcion del programa, y\n          simplemente copiamos la parte que dice: pip3 install Django==2.2.5\n        </p>\n        <div>\n          <img src=\"assets/django-linux (7).png\" alt=\"software\" />\n        </div>\n        <p>\n          Listo ya podemos editar el codigo de nuestro proyecto Django\n        </p>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/drop-soft/drop-soft.component.html":
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/drop-soft/drop-soft.component.html ***!
@@ -101,16 +114,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/java/java.component.html":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/java/java.component.html ***!
-  \*******************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/laravel/laravel.component.html":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/laravel/laravel.component.html ***!
+  \*************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"col-sm-12\">\n  <div class=\"image\">\n    <img src=\"assets/java.jpg\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Java - JDK</h1>\n\n      <p>\n        Java es un lenguaje de programación y una plataforma informática\n        comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas\n        aplicaciones y sitios web que no funcionarán a menos que tenga Java\n        instalado y cada día se crean más. Java es rápido, seguro y fiable.\n        Desde portátiles hasta centros de datos, desde consolas para juegos\n        hasta súper computadoras, desde teléfonos móviles hasta Internet, Java\n        está en todas partes. ¿La descarga de Java es gratuita? Sí, la descarga\n        de Java es gratuita. Puede obtener la última versión en java.com. Si\n        está diseñando un dispositivo de consumo o integrado y le gustaría\n        incluir Java, póngase en contacto con Oracle para solicitar información\n        sobre cómo incluir Java en su dispositivo. ¿Por qué debería actualizarme\n        a la versión más reciente de Java? La versión más reciente de Java\n        contiene importantes mejoras para el rendimiento, estabilidad y\n        seguridad de las aplicaciones Java que se ejecutan en su equipo. La\n        instalación de la actualización gratuita garantiza que sus aplicaciones\n        Java sigan ejecutándose de forma segura y eficaz.\n      </p>\n      <div>\n        <img src=\"assets/win-logo.jpg\" alt=\"software\" class=\"logo\" />\n      </div>\n      <p>\n        Primero que nada lo que se tiene que hacer es descargar el JDK, es el\n        kit de desarrollo de java con el vamos a poder compilar nuestros codigos\n        Asi que seleccionaremos la verion de nuestro sistema operativo en la\n        siguiente página.\n        <a\n          href=\"https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html\"\n          target=\"blank\"\n          >Java SDK</a\n        >\n      </p>\n\n      <div>\n        <img src=\"assets/java-win (1).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Una vez descargado, le damos doble clic al archivo y nos saldra una\n        ventana de instalacion como esta, le damos siguiente\n      </p>\n      <div>\n        <img src=\"assets/java-win (2).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Le daremos siguiente, y comenzara la instalacion de los paquetes\n        necesarios.\n      </p>\n      <div>\n        <img src=\"assets/java-win (3).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Una vez instalado, proseguiremos a instalar un IDE, que es una interfaz\n        en la que podremos trabajar y compilar nuestros codigos. En nuestro caso\n        usaremos Netbeans que es el mas sencillo, simplemente lo descargamos e\n        instalamos, aqui está el enlace de descarga\n        <a href=\"https://netbeans.org\" target=\"blank\">Netbeans</a>\n      </p>\n      <div>\n        <img src=\"assets/java-win (9).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Una vez instalado lo unico que hacemos es abrir Netbeans\n      </p>\n      <div>\n        <img src=\"assets/java-win (4).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Abrimos el proyecto, el cual te dejare aqui en el siguiente enlace\n        <a\n          href=\"https://drive.google.com/open?id=1iUUWIF8tjnpPWvxXmgmYqxbr5A60DXvb\"\n          >Punto de Venta</a\n        >\n        solucionamos los problemas del proyecto\n      </p>\n      <div>\n        <img src=\"assets/java-win (5).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Abrimos el codigo del proyecto y simplemente le damos en compilar\n      </p>\n      <div>\n        <img src=\"assets/java-win (6).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Una vez compilado podremos observar una interfaz como esta, con la cual\n        significa que se cargo correctamente\n      </p>\n      <div>\n        <img src=\"assets/java-win (7).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <p>\n        Y ya podremos interactuar con el sistema\n      </p>\n      <div>\n        <img src=\"assets/java-win (8).png\" alt=\"software\" class=\"imagen\" />\n      </div>\n      <h1>Servicios de Linux</h1>\n\n      <div>\n        <img src=\"assets/linux-logo.jpg\" alt=\"software\" class=\"imagen\" />\n      </div>\n\n      <p>\n        Para poder hacer la instalacion en linux, debemos utilizar la terminal\n        para instalar el kit de desarrollo de java y java como tal, primero\n        instalaremos java, asi que usaremos el siguiente comando: sudo apt\n        install default-jre para instalar java\n      </p>\n      <div>\n        <img src=\"assets/java-lin (1).png\" alt=\"software\" class=\"imagen\" />\n\n        <p>\n          En algun punto nos preguntara que si deseamos continuar con la\n          instalacion asi que lo que haremos es darle \"y\" para continuar con la\n          instalacion\n        </p>\n        <div>\n          <img src=\"assets/java-lin (2).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Comprobamos la version de java para ver si la instalacion es correcta\n          asi que insertaremos el siguiente comando: java -version\n        </p>\n        <div>\n          <img src=\"assets/java-lin (3).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Ahora instalamos el jdk para utilizar netbeans\n        </p>\n        <div>\n          <img src=\"assets/java-lin (4).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Abrimos netbeans y el codigo del proyecto y compilamos como en\n          windows, si nos salen errores del proyecto simplemente los\n          solucionamos\n        </p>\n        <div>\n          <img src=\"assets/java-lin (5).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Ahora simplemente interactuamos con el sistema de punto venta de la\n          misma forma que lo hemos hecho con el anterior\n        </p>\n        <div>\n          <img src=\"assets/java-lin (6).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n        <p>\n          Y listo, ya tenemos el punto de venta de JAVA¡\n        </p>\n        <div>\n          <img src=\"assets/java-lin (7).png\" alt=\"software\" class=\"imagen\" />\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"image\">\n<img src=\"assets/laravel-logo.png\" alt=\"software\" class=\"main-imagen\" />\n</div>\n<div class=\"row\">\n  <div class=\"col-sm-12 edicion\">\n    <h1>Laravel</h1>\n    <p>\n      Laravel es un framework de código abierto para desarrollar aplicaciones y\n      servicios web con PHP 5 y PHP 7. Su filosofía es desarrollar código PHP de\n      forma elegante y simple, evitando el \"código espagueti\". Fue creado en\n      2011 y tiene una gran influencia de frameworks como Ruby on Rails, Sinatra\n      y ASP.NET MVC. Laravel tiene como objetivo ser un framework que permita el\n      uso de una sintaxis elegante y expresiva para crear código de forma\n      sencilla y permitiendo multitud de funcionalidades. Intenta aprovechar lo\n      mejor de otros frameworks y aprovechar las características de las últimas\n      versiones de PHP. Gran parte de Laravel está formado por dependencias,\n      especialmente de Symfony, esto implica que el desarrollo de Laravel\n      dependa también del desarrollo de sus dependencias.\n    </p>\n    <h1>Caracteristicas Principales</h1>\n    Las características de Laravel son:\n    <li>Sistema de ruteo, también RESTful.</li>\n    <li>\n      Blade, Motor de plantillas.\n    </li>\n    <li>Peticiones Fluent.</li>\n    <li>\n      Eloquent ORM.\n    </li>\n    <li>\n      Basado en Composer.\n    </li>\n    <li>\n      Soporte para el caché.\n    </li>\n    <li>\n      Soporte para MVC.\n    </li>\n    <li>\n      Usa componentes de Symfony.\n    </li>\n    <li>\n      Adopta las especificaciones PSR-2​ y PSR-4.\n    </li>\n    <li>\n      Documentación incorporada accesible a través de la aplicación\n      administrativa (incluyendo documentación generada automáticamente de los\n      modelos y las bibliotecas de plantillas añadidas por las aplicaciones).\n    </li>\n    Laravel también es una plataforma habitual que brinda multiples herramientas\n    <h1>Laravel Windows</h1>\n    <div>\n      <img src=\"assets/win-logo.jpg\" alt=\"\" class=\"logo\" />\n    </div>\n\n    <p>\n      Para ver poder instalar Laravel, debemos abrir nuestro navegador y\n      buscamos Laravel en nuestro servicio de busqueda preferida, ya sea Google,\n      Yahoo, Bing, etc, yo les proporciono el link aqui:\n\n      <a href=\"https://laravel.com\" target=\"blank\">Laravel</a>\n    </p>\n    <div>\n      <img src=\"assets/laravel-linux (1).png\" alt=\"software\" />\n    </div>\n    <p>\n      Tambien vamos a tener que descargar composer, aqui les dejo el link\n      <a href=\"https://getcomposer.org\" target=\"blank\">Composer</a>\n    </p>\n\n    <div>\n      <img src=\"assets/laravel-linux (2).png\" alt=\"software\" />\n    </div>\n    <p>\n      Simplemente descargamos el instalador de composer, el cual sera la forma\n      mas sencilla de trabajar con laravel\n    </p>\n    <div>\n      <img src=\"assets/laravel-linux (10).jpg\" alt=\"software\" />\n    </div>\n    <p>\n      Le damos siguiente al instalador y comenzara la instalacion de nuestro\n      programa\n    </p>\n    <div>\n      <img src=\"assets/laravel-linux (11).jpg\" alt=\"software\" />\n    </div>\n    <p>\n      Aqui podemos ver como comienza la instalacion pero una vez que termine\n      podremos acceder al siguiente paso\n    </p>\n    <div>\n      <img src=\"assets/laravel-linux (12).jpg\" alt=\"software\" />\n    </div>\n    <p>\n      Despues de que se instale tendremos esta consola\n    </p>\n    <div>\n      <img src=\"assets/laravel-linux (13).jpg\" alt=\"software\" />\n    </div>\n    <p>\n     Simplemente utilizamos este comando para instalar Laravel: composer\n      global require laravel/installer \n      Y listo ya tenemos Laravel en nuestro sistema\n    </p>\n\n    <h1>Laravel en Linux</h1>\n\n    <div>\n      <img src=\"assets/laravel-linux (1).png\" alt=\"software\" />\n    </div>\n\n    <p>\n      Para instalar Laravel en linux usaremos la forma mas sencilla: y de la\n      misma forma que en windows abrimos la pagina de Laravel\n    </p>\n    <div>\n      <img src=\"assets/laravel-linux (2).png\" alt=\"software\" />\n\n      <p>\n        Tambien tendremos que bajar composer de la misma forma que en windows\n      </p>\n      <div>\n      <img src=\"assets/laravel-linux (3).png\" alt=\"software\" />\n      </div>\n      <div>\n        <p>\n          Procederemos a instalar PHP, para eso tendremos que usar el siguiente comando \n          sudo apt install php\n        </p>\n        <div>\n      <img src=\"assets/laravel-linux (4).png\" alt=\"software\" />\n        </div>\n        <p>\n          Ahora si proseguiremos a instalar composer con el siguiente comando:\n          curl -sS \"https://getcomposer.org/installer | php\"\n          Luego: sudo mv ~/composer.phar /usr/local/bin/composer\n          Finalmente sudo apt install composer\n        </p>\n        <div>\n      <img src=\"assets/laravel-linux (5).png\" alt=\"software\" />\n        </div>\n        <p>\n          Ahora simplemente verificamos que composer este instalado poniendolo en la consola\n        </p>\n        <div>\n      <img src=\"assets/laravel-linux (6).png\" alt=\"software\" />\n        </div>\n        <p>\n          Ahora instalaremos laravel, para eso tenemos que usar los siguientes comandos:\n          composer global require laravel/installer\n        </p>\n        <div>\n      <img src=\"assets/laravel-linux (7).png\" alt=\"software\" />\n        </div>\n        <p>\n          Ahora simplemente creamos un proyecto y levanatamos el servidor de la siguiente forma:\n          composer create-project --prefer-dist laravel/laravel blog\n        </p>\n        <div>\n      <img src=\"assets/laravel-linux (8).png\" alt=\"software\" />\n        </div>\n        <p>\n          Ahora accedemos a la carpeta y levantamos el servidor \n        </p>\n        <div>\n      <img src=\"assets/laravel-linux (9).png\" alt=\"software\" />\n        </div>\n        <p>\n          Listo ya podemos trabajar con Laravel\n        </p>\n      </div>\n    </div>\n  </div>\n</div>\n");
 
 /***/ }),
 
@@ -439,7 +452,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/linux/linux.component */ "./src/app/components/linux/linux.component.ts");
 /* harmony import */ var _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/services/services.component */ "./src/app/components/services/services.component.ts");
 /* harmony import */ var _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/free-office/free-office.component */ "./src/app/components/free-office/free-office.component.ts");
-/* harmony import */ var _components_java_java_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/java/java.component */ "./src/app/components/java/java.component.ts");
+/* harmony import */ var _components_django_django_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/django/django.component */ "./src/app/components/django/django.component.ts");
+/* harmony import */ var _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/laravel/laravel.component */ "./src/app/components/laravel/laravel.component.ts");
+
 
 
 
@@ -455,7 +470,8 @@ const routes = [
     { path: 'Windows', component: _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_4__["WindowsComponent"] },
     { path: 'Servicios', component: _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__["ServicesComponent"] },
     { path: 'Free-Office', component: _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_7__["FreeOfficeComponent"] },
-    { path: 'Java', component: _components_java_java_component__WEBPACK_IMPORTED_MODULE_8__["JavaComponent"] },
+    { path: 'Django', component: _components_django_django_component__WEBPACK_IMPORTED_MODULE_8__["DjangoComponent"] },
+    { path: 'Laravel', component: _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_9__["LaravelComponent"] },
     { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 let AppRoutingModule = class AppRoutingModule {
@@ -541,7 +557,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/linux/linux.component */ "./src/app/components/linux/linux.component.ts");
 /* harmony import */ var _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/services/services.component */ "./src/app/components/services/services.component.ts");
 /* harmony import */ var _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/free-office/free-office.component */ "./src/app/components/free-office/free-office.component.ts");
-/* harmony import */ var _components_java_java_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/java/java.component */ "./src/app/components/java/java.component.ts");
+/* harmony import */ var _components_django_django_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/django/django.component */ "./src/app/components/django/django.component.ts");
+/* harmony import */ var _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/laravel/laravel.component */ "./src/app/components/laravel/laravel.component.ts");
+
 
 
 
@@ -576,7 +594,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"],
             _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"],
             _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"],
-            _components_java_java_component__WEBPACK_IMPORTED_MODULE_16__["JavaComponent"]
+            _components_django_django_component__WEBPACK_IMPORTED_MODULE_16__["DjangoComponent"],
+            _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__["LaravelComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -586,6 +605,50 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/django/django.component.css":
+/*!********************************************************!*\
+  !*** ./src/app/components/django/django.component.css ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n    height: auto;\n    width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0; \n}\n\n.edicion h2, h1 {\n    margin-top: 50px;\n    text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img{\n  width: 40%;\n  height: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9kamFuZ28vZGphbmdvLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtBQUNmOztBQUVBO0lBQ0ksWUFBWTtJQUNaLFVBQVU7QUFDZDs7QUFFQTtFQUNFLFVBQVU7RUFDVixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixjQUFjO0FBQ2hCOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLDBCQUEwQjtBQUM5Qjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixvQkFBb0I7RUFDcEIsaUJBQWlCO0VBQ2pCLGNBQWM7RUFDZCxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLFVBQVU7RUFDVixZQUFZO0FBQ2QiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2RqYW5nby9kamFuZ28uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDgwMHB4O1xufVxuXG4ubG9nbyB7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIHdpZHRoOiAyNSU7XG59XG5cbi5pbWFnZW4ge1xuICB3aWR0aDogNTAlO1xuICBoZWlnaHQ6IDUwMHB4O1xufVxuXG4uaW1hZ2Uge1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZWRpdCB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5lZGljaW9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzEzNTI4NTtcbiAgY29sb3I6ICNmZmZmZmY7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmVkaWNpb24gcCB7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgbWFyZ2luOiA1MHB4IDA7IFxufVxuXG4uZWRpY2lvbiBoMiwgaDEge1xuICAgIG1hcmdpbi10b3A6IDUwcHg7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG59XG5cbi5lZGljaW9uIGxpIHtcbiAgYm9yZGVyLXJhZGl1czogMnB4O1xuICBib3JkZXItc3R5bGU6IGRvdWJsZTtcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XG4gIG1hcmdpbjogMjBweCAwO1xuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uc2VydmljZS1pbWd7XG4gIHdpZHRoOiA0MCU7XG4gIGhlaWdodDogYXV0bztcbn0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/components/django/django.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/components/django/django.component.ts ***!
+  \*******************************************************/
+/*! exports provided: DjangoComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DjangoComponent", function() { return DjangoComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let DjangoComponent = class DjangoComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+DjangoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-django',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./django.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/django/django.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./django.component.css */ "./src/app/components/django/django.component.css")).default]
+    })
+], DjangoComponent);
 
 
 
@@ -634,6 +697,9 @@ let DropSoftComponent = class DropSoftComponent {
                 software: 'Django'
             },
             {
+                software: 'Laravel'
+            },
+            {
                 software: 'Ruby on Rails'
             },
             {
@@ -641,9 +707,6 @@ let DropSoftComponent = class DropSoftComponent {
             },
             {
                 software: 'VideoJuego'
-            },
-            {
-                software: 'Django'
             },
             {
                 software: 'Samba'
@@ -865,45 +928,45 @@ ImagesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/components/java/java.component.css":
-/*!****************************************************!*\
-  !*** ./src/app/components/java/java.component.css ***!
-  \****************************************************/
+/***/ "./src/app/components/laravel/laravel.component.css":
+/*!**********************************************************!*\
+  !*** ./src/app/components/laravel/laravel.component.css ***!
+  \**********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n    height: auto;\r\n    width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0; \r\n}\r\n\r\n.edicion h2, h1 {\r\n    margin-top: 50px;\r\n    text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img{\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9qYXZhL2phdmEuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0FBQ2Y7O0FBRUE7SUFDSSxZQUFZO0lBQ1osVUFBVTtBQUNkOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0VBQ2Qsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7QUFDaEI7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsMEJBQTBCO0FBQzlCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZCIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvamF2YS9qYXZhLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi1pbWFnZW4ge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogODAwcHg7XHJcbn1cclxuXHJcbi5sb2dvIHtcclxuICAgIGhlaWdodDogYXV0bztcclxuICAgIHdpZHRoOiAyNSU7XHJcbn1cclxuXHJcbi5pbWFnZW4ge1xyXG4gIHdpZHRoOiA1MCU7XHJcbiAgaGVpZ2h0OiA1MDBweDtcclxufVxyXG5cclxuLmltYWdlIHtcclxuICBwYWRkaW5nOiAwO1xyXG59XHJcblxyXG4uZWRpdCB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaWNpb24ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxMzUyODU7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uZWRpY2lvbiBwIHtcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgbWFyZ2luOiA1MHB4IDA7IFxyXG59XHJcblxyXG4uZWRpY2lvbiBoMiwgaDEge1xyXG4gICAgbWFyZ2luLXRvcDogNTBweDtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG59XHJcblxyXG4uZWRpY2lvbiBsaSB7XHJcbiAgYm9yZGVyLXJhZGl1czogMnB4O1xyXG4gIGJvcmRlci1zdHlsZTogZG91YmxlO1xyXG4gIGJvcmRlci1jb2xvcjogcmVkO1xyXG4gIG1hcmdpbjogMjBweCAwO1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uc2VydmljZS1pbWd7XHJcbiAgd2lkdGg6IDQwJTtcclxuICBoZWlnaHQ6IGF1dG87XHJcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n    height: auto;\n    width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0; \n}\n\n.edicion h2, h1 {\n    margin-top: 50px;\n    text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img{\n  width: 40%;\n  height: auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9sYXJhdmVsL2xhcmF2ZWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0FBQ2Y7O0FBRUE7SUFDSSxZQUFZO0lBQ1osVUFBVTtBQUNkOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0VBQ2Qsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7QUFDaEI7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsMEJBQTBCO0FBQzlCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZCIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbGFyYXZlbC9sYXJhdmVsLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi1pbWFnZW4ge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiA4MDBweDtcbn1cblxuLmxvZ28ge1xuICAgIGhlaWdodDogYXV0bztcbiAgICB3aWR0aDogMjUlO1xufVxuXG4uaW1hZ2VuIHtcbiAgd2lkdGg6IDUwJTtcbiAgaGVpZ2h0OiA1MDBweDtcbn1cblxuLmltYWdlIHtcbiAgcGFkZGluZzogMDtcbn1cblxuLmVkaXQge1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZWRpY2lvbiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMxMzUyODU7XG4gIGNvbG9yOiAjZmZmZmZmO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5lZGljaW9uIHAge1xuICBmb250LXNpemU6IDI1cHg7XG4gIG1hcmdpbjogNTBweCAwOyBcbn1cblxuLmVkaWNpb24gaDIsIGgxIHtcbiAgICBtYXJnaW4tdG9wOiA1MHB4O1xuICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xufVxuXG4uZWRpY2lvbiBsaSB7XG4gIGJvcmRlci1yYWRpdXM6IDJweDtcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XG4gIGJvcmRlci1jb2xvcjogcmVkO1xuICBtYXJnaW46IDIwcHggMDtcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICBmb250LXNpemU6IDI1cHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLnNlcnZpY2UtaW1ne1xuICB3aWR0aDogNDAlO1xuICBoZWlnaHQ6IGF1dG87XG59Il19 */");
 
 /***/ }),
 
-/***/ "./src/app/components/java/java.component.ts":
-/*!***************************************************!*\
-  !*** ./src/app/components/java/java.component.ts ***!
-  \***************************************************/
-/*! exports provided: JavaComponent */
+/***/ "./src/app/components/laravel/laravel.component.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/components/laravel/laravel.component.ts ***!
+  \*********************************************************/
+/*! exports provided: LaravelComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JavaComponent", function() { return JavaComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LaravelComponent", function() { return LaravelComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
-let JavaComponent = class JavaComponent {
+let LaravelComponent = class LaravelComponent {
     constructor() { }
     ngOnInit() {
     }
 };
-JavaComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+LaravelComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-java',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./java.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/java/java.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./java.component.css */ "./src/app/components/java/java.component.css")).default]
+        selector: 'app-laravel',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./laravel.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/laravel/laravel.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./laravel.component.css */ "./src/app/components/laravel/laravel.component.css")).default]
     })
-], JavaComponent);
+], LaravelComponent);
 
 
 
