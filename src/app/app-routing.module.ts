@@ -5,6 +5,8 @@ import { WindowsComponent } from './components/windows/windows.component';
 import { LinuxComponent } from './components/linux/linux.component';
 import { ServicesComponent } from './components/services/services.component';
 import { FreeOfficeComponent } from './components/free-office/free-office.component';
+import { DjangoComponent } from './components/django/django.component';
+import { LaravelComponent } from './components/laravel/laravel.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -12,6 +14,8 @@ const routes: Routes = [
   { path: 'Windows', component: WindowsComponent },
   { path: 'Servicios', component: ServicesComponent },
   { path: 'Free-Office', component: FreeOfficeComponent },
+  { path: 'Django', component: DjangoComponent },
+  { path: 'Laravel', component: LaravelComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 
