@@ -7,6 +7,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { FreeOfficeComponent } from './components/free-office/free-office.component';
 import { DjangoComponent } from './components/django/django.component';
 import { LaravelComponent } from './components/laravel/laravel.component';
+import { IonicComponent } from './components/ionic/ionic.component';
+import { RubyComponent } from './components/ruby/ruby.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: 'Free-Office', component: FreeOfficeComponent },
   { path: 'Django', component: DjangoComponent },
   { path: 'Laravel', component: LaravelComponent },
+  { path: 'Ionic', component: IonicComponent },
+  { path: 'Ruby', component: RubyComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 

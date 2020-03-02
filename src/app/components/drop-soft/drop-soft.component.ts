@@ -23,7 +23,7 @@ export class DropSoftComponent implements OnInit {
       software: 'Laravel'
     },
     {
-      software: 'Ruby on Rails'
+      software: 'Ruby'
     },
     {
       software: 'Ionic'

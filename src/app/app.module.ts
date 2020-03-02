@@ -16,6 +16,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { FreeOfficeComponent } from './components/free-office/free-office.component';
 import { DjangoComponent } from './components/django/django.component';
 import { LaravelComponent } from './components/laravel/laravel.component';
+import { IonicComponent } from './components/ionic/ionic.component';
+import { RubyComponent } from './components/ruby/ruby.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { LaravelComponent } from './components/laravel/laravel.component';
     ServicesComponent,
     FreeOfficeComponent,
     DjangoComponent,
-    LaravelComponent
+    LaravelComponent,
+    IonicComponent,
+    RubyComponent
   ],
   imports: [
     BrowserModule,
