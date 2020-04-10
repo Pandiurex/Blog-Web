@@ -218,6 +218,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/videogame/videogame.component.html":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/videogame/videogame.component.html ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <div class=\"image\">\n    <img src=\"assets/juego (1).jpg\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Video Juego en el Navegador</h1>\n      <p>\n        El juego que vamos a poder jugar en nuestro dispositivo es Asteroids:\n        Asteroids es un popular videojuego de arcade basado en vectores lanzado\n        en 1979 por Atari. El objetivo del juego es disparar y destruir\n        asteroides evitando chocar contra los fragmentos de estos. Fue uno de\n        los juegos más populares de la Época Dorada de los videojuegos arcade.\n        Asteroids fue inspirado por el juego Spacewar!, el primer videojuego de\n        computadora. En el año 1977, Cinematronics lanzó Space Wars, un juego\n        similar, también basado en Spacewar!. Asteroids en esencialmente una\n        versión de un jugador de Space Wars, caracterizado por la nave y los\n        asteroides como enemigo principal.\n      </p>\n\n      <h1>Asteroids en Windows y Linux</h1>\n      <div>\n        <img src=\"assets/win-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n      <div>\n        <img src=\"assets/linux-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n\n      <p>\n        Para ver poder jugar solo necesitan descargarse el juego aqui\n\n        <a href=\"https://rubyonrails.org\" target=\"blank\">Asteroids</a>\n      </p>\n      <div>\n        <img src=\"assets/juego (1).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Para ir avanzando en los niveles vamos a tener que matar a todas las\n        navecitas\n      </p>\n\n      <div>\n        <img src=\"assets/juego (2).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Una vez derrotadas podran avanzar al siguiente nivel y asi hasta que\n        mueran\n      </p>\n      <div>\n        <img src=\"assets/juego (3).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        En el lado superior izquierdo podremos observar el puntaje que llevamos\n      </p>\n      <div>\n        <img src=\"assets/juego (4).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Del lado derecho podremos observar las vidas restantes del juego\n      </p>\n      <div>\n        <img src=\"assets/juego (5).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Aqui aparece que ganamos y nos pregunta si deseamos volver a jugar.\n      </p>\n      <div>\n        <img src=\"assets/juego (6).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        De no ser asi nos saldra el siguiente mensaje\n      </p>\n      <div>\n        <img src=\"assets/juego (7).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/windows/windows.component.html":
 /*!*************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/windows/windows.component.html ***!
@@ -482,6 +495,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/laravel/laravel.component */ "./src/app/components/laravel/laravel.component.ts");
 /* harmony import */ var _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/ionic/ionic.component */ "./src/app/components/ionic/ionic.component.ts");
 /* harmony import */ var _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/ruby/ruby.component */ "./src/app/components/ruby/ruby.component.ts");
+/* harmony import */ var _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/videogame/videogame.component */ "./src/app/components/videogame/videogame.component.ts");
+
 
 
 
@@ -495,16 +510,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: 'home', component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
-    { path: 'Linux', component: _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_5__["LinuxComponent"] },
-    { path: 'Windows', component: _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_4__["WindowsComponent"] },
-    { path: 'Servicios', component: _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__["ServicesComponent"] },
-    { path: 'Free-Office', component: _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_7__["FreeOfficeComponent"] },
-    { path: 'Django', component: _components_django_django_component__WEBPACK_IMPORTED_MODULE_8__["DjangoComponent"] },
-    { path: 'Laravel', component: _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_9__["LaravelComponent"] },
-    { path: 'Ionic', component: _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_10__["IonicComponent"] },
-    { path: 'Ruby', component: _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_11__["RubyComponent"] },
-    { path: '**', pathMatch: 'full', redirectTo: 'home' },
+    { path: "home", component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"] },
+    { path: "Linux", component: _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_5__["LinuxComponent"] },
+    { path: "Windows", component: _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_4__["WindowsComponent"] },
+    { path: "Servicios", component: _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__["ServicesComponent"] },
+    { path: "Free-Office", component: _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_7__["FreeOfficeComponent"] },
+    { path: "Django", component: _components_django_django_component__WEBPACK_IMPORTED_MODULE_8__["DjangoComponent"] },
+    { path: "Laravel", component: _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_9__["LaravelComponent"] },
+    { path: "Ionic", component: _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_10__["IonicComponent"] },
+    { path: "Ruby", component: _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_11__["RubyComponent"] },
+    { path: "VideoJuego", component: _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_12__["VideogameComponent"] },
+    { path: "**", pathMatch: "full", redirectTo: "home" }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -593,6 +609,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/laravel/laravel.component */ "./src/app/components/laravel/laravel.component.ts");
 /* harmony import */ var _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/ionic/ionic.component */ "./src/app/components/ionic/ionic.component.ts");
 /* harmony import */ var _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/ruby/ruby.component */ "./src/app/components/ruby/ruby.component.ts");
+/* harmony import */ var _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/videogame/videogame.component */ "./src/app/components/videogame/videogame.component.ts");
+
 
 
 
@@ -633,7 +651,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _components_django_django_component__WEBPACK_IMPORTED_MODULE_16__["DjangoComponent"],
             _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__["LaravelComponent"],
             _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_18__["IonicComponent"],
-            _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__["RubyComponent"]
+            _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__["RubyComponent"],
+            _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__["VideogameComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -975,7 +994,7 @@ ImagesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9pb25pYy9pb25pYy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxnQkFBZ0I7RUFDaEIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaW9uaWMvaW9uaWMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiA4MDBweDtcclxufVxyXG5cclxuLmxvZ28ge1xyXG4gIGhlaWdodDogYXV0bztcclxuICB3aWR0aDogMjUlO1xyXG59XHJcblxyXG4uaW1hZ2VuIHtcclxuICB3aWR0aDogNTAlO1xyXG4gIGhlaWdodDogNTAwcHg7XHJcbn1cclxuXHJcbi5pbWFnZSB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaXQge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmVkaWNpb24gcCB7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIG1hcmdpbjogNTBweCAwO1xyXG59XHJcblxyXG4uZWRpY2lvbiBoMixcclxuaDEge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbn1cclxuXHJcbi5lZGljaW9uIGxpIHtcclxuICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XHJcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XHJcbiAgbWFyZ2luOiAyMHB4IDA7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5zZXJ2aWNlLWltZyB7XHJcbiAgd2lkdGg6IDQwJTtcclxuICBoZWlnaHQ6IGF1dG87XHJcbn1cclxuXHJcbi5pbWFnZS1jb250IHtcclxuICB3aWR0aDogNTAlO1xyXG59XHJcbiJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n  height: auto;\n  width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0;\n}\n\n.edicion h2,\nh1 {\n  margin-top: 50px;\n  text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img {\n  width: 40%;\n  height: auto;\n}\n\n.image-cont {\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9pb25pYy9pb25pYy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxnQkFBZ0I7RUFDaEIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaW9uaWMvaW9uaWMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDgwMHB4O1xufVxuXG4ubG9nbyB7XG4gIGhlaWdodDogYXV0bztcbiAgd2lkdGg6IDI1JTtcbn1cblxuLmltYWdlbiB7XG4gIHdpZHRoOiA1MCU7XG4gIGhlaWdodDogNTAwcHg7XG59XG5cbi5pbWFnZSB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5lZGl0IHtcbiAgcGFkZGluZzogMDtcbn1cblxuLmVkaWNpb24ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xuICBjb2xvcjogI2ZmZmZmZjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uZWRpY2lvbiBwIHtcbiAgZm9udC1zaXplOiAyNXB4O1xuICBtYXJnaW46IDUwcHggMDtcbn1cblxuLmVkaWNpb24gaDIsXG5oMSB7XG4gIG1hcmdpbi10b3A6IDUwcHg7XG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xufVxuXG4uZWRpY2lvbiBsaSB7XG4gIGJvcmRlci1yYWRpdXM6IDJweDtcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XG4gIGJvcmRlci1jb2xvcjogcmVkO1xuICBtYXJnaW46IDIwcHggMDtcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICBmb250LXNpemU6IDI1cHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLnNlcnZpY2UtaW1nIHtcbiAgd2lkdGg6IDQwJTtcbiAgaGVpZ2h0OiBhdXRvO1xufVxuXG4uaW1hZ2UtY29udCB7XG4gIHdpZHRoOiA1MCU7XG59XG4iXX0= */");
 
 /***/ }),
 
@@ -1107,7 +1126,7 @@ LinuxComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9ydWJ5L3J1YnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxZQUFZO0VBQ1osVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0VBQ2Qsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7QUFDaEI7O0FBRUE7O0VBRUUsZ0JBQWdCO0VBQ2hCLDBCQUEwQjtBQUM1Qjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixvQkFBb0I7RUFDcEIsaUJBQWlCO0VBQ2pCLGNBQWM7RUFDZCxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLFVBQVU7RUFDVixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxVQUFVO0FBQ1oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3J1YnkvcnVieS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4taW1hZ2VuIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDgwMHB4O1xyXG59XHJcblxyXG4ubG9nbyB7XHJcbiAgaGVpZ2h0OiBhdXRvO1xyXG4gIHdpZHRoOiAyNSU7XHJcbn1cclxuXHJcbi5pbWFnZW4ge1xyXG4gIHdpZHRoOiA1MCU7XHJcbiAgaGVpZ2h0OiA1MDBweDtcclxufVxyXG5cclxuLmltYWdlIHtcclxuICBwYWRkaW5nOiAwO1xyXG59XHJcblxyXG4uZWRpdCB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaWNpb24ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxMzUyODU7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uZWRpY2lvbiBwIHtcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgbWFyZ2luOiA1MHB4IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIGgyLFxyXG5oMSB7XHJcbiAgbWFyZ2luLXRvcDogNTBweDtcclxuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxufVxyXG5cclxuLmVkaWNpb24gbGkge1xyXG4gIGJvcmRlci1yYWRpdXM6IDJweDtcclxuICBib3JkZXItc3R5bGU6IGRvdWJsZTtcclxuICBib3JkZXItY29sb3I6IHJlZDtcclxuICBtYXJnaW46IDIwcHggMDtcclxuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnNlcnZpY2UtaW1nIHtcclxuICB3aWR0aDogNDAlO1xyXG4gIGhlaWdodDogYXV0bztcclxufVxyXG5cclxuLmltYWdlLWNvbnQge1xyXG4gIHdpZHRoOiA1MCU7XHJcbn1cclxuIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n  height: auto;\n  width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0;\n}\n\n.edicion h2,\nh1 {\n  margin-top: 50px;\n  text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img {\n  width: 40%;\n  height: auto;\n}\n\n.image-cont {\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9ydWJ5L3J1YnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxZQUFZO0VBQ1osVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0VBQ2Qsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7QUFDaEI7O0FBRUE7O0VBRUUsZ0JBQWdCO0VBQ2hCLDBCQUEwQjtBQUM1Qjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixvQkFBb0I7RUFDcEIsaUJBQWlCO0VBQ2pCLGNBQWM7RUFDZCxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLFVBQVU7RUFDVixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxVQUFVO0FBQ1oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3J1YnkvcnVieS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4taW1hZ2VuIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogODAwcHg7XG59XG5cbi5sb2dvIHtcbiAgaGVpZ2h0OiBhdXRvO1xuICB3aWR0aDogMjUlO1xufVxuXG4uaW1hZ2VuIHtcbiAgd2lkdGg6IDUwJTtcbiAgaGVpZ2h0OiA1MDBweDtcbn1cblxuLmltYWdlIHtcbiAgcGFkZGluZzogMDtcbn1cblxuLmVkaXQge1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZWRpY2lvbiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMxMzUyODU7XG4gIGNvbG9yOiAjZmZmZmZmO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5lZGljaW9uIHAge1xuICBmb250LXNpemU6IDI1cHg7XG4gIG1hcmdpbjogNTBweCAwO1xufVxuXG4uZWRpY2lvbiBoMixcbmgxIHtcbiAgbWFyZ2luLXRvcDogNTBweDtcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG59XG5cbi5lZGljaW9uIGxpIHtcbiAgYm9yZGVyLXJhZGl1czogMnB4O1xuICBib3JkZXItc3R5bGU6IGRvdWJsZTtcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XG4gIG1hcmdpbjogMjBweCAwO1xuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uc2VydmljZS1pbWcge1xuICB3aWR0aDogNDAlO1xuICBoZWlnaHQ6IGF1dG87XG59XG5cbi5pbWFnZS1jb250IHtcbiAgd2lkdGg6IDUwJTtcbn1cbiJdfQ== */");
 
 /***/ }),
 
@@ -1315,6 +1334,50 @@ NavbarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./navbar.component.css */ "./src/app/components/shared/navbar/navbar.component.css")).default]
     })
 ], NavbarComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/videogame/videogame.component.css":
+/*!**************************************************************!*\
+  !*** ./src/app/components/videogame/videogame.component.css ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n  height: auto;\n  width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0;\n}\n\n.edicion h2,\nh1 {\n  margin-top: 50px;\n  text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img {\n  width: 40%;\n  height: auto;\n}\n\n.image-cont {\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlb2dhbWUvdmlkZW9nYW1lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtBQUNmOztBQUVBO0VBQ0UsWUFBWTtFQUNaLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7RUFDVixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixjQUFjO0FBQ2hCOztBQUVBOztFQUVFLGdCQUFnQjtFQUNoQiwwQkFBMEI7QUFDNUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkOztBQUVBO0VBQ0UsVUFBVTtBQUNaIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy92aWRlb2dhbWUvdmlkZW9nYW1lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi1pbWFnZW4ge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiA4MDBweDtcbn1cblxuLmxvZ28ge1xuICBoZWlnaHQ6IGF1dG87XG4gIHdpZHRoOiAyNSU7XG59XG5cbi5pbWFnZW4ge1xuICB3aWR0aDogNTAlO1xuICBoZWlnaHQ6IDUwMHB4O1xufVxuXG4uaW1hZ2Uge1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZWRpdCB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5lZGljaW9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzEzNTI4NTtcbiAgY29sb3I6ICNmZmZmZmY7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmVkaWNpb24gcCB7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgbWFyZ2luOiA1MHB4IDA7XG59XG5cbi5lZGljaW9uIGgyLFxuaDEge1xuICBtYXJnaW4tdG9wOiA1MHB4O1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbn1cblxuLmVkaWNpb24gbGkge1xuICBib3JkZXItcmFkaXVzOiAycHg7XG4gIGJvcmRlci1zdHlsZTogZG91YmxlO1xuICBib3JkZXItY29sb3I6IHJlZDtcbiAgbWFyZ2luOiAyMHB4IDA7XG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcbiAgZm9udC1zaXplOiAyNXB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5zZXJ2aWNlLWltZyB7XG4gIHdpZHRoOiA0MCU7XG4gIGhlaWdodDogYXV0bztcbn1cblxuLmltYWdlLWNvbnQge1xuICB3aWR0aDogNTAlO1xufVxuIl19 */");
+
+/***/ }),
+
+/***/ "./src/app/components/videogame/videogame.component.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/components/videogame/videogame.component.ts ***!
+  \*************************************************************/
+/*! exports provided: VideogameComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideogameComponent", function() { return VideogameComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let VideogameComponent = class VideogameComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+VideogameComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-videogame',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./videogame.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/videogame/videogame.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./videogame.component.css */ "./src/app/components/videogame/videogame.component.css")).default]
+    })
+], VideogameComponent);
 
 
 
