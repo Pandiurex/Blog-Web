@@ -18,6 +18,7 @@ import { DjangoComponent } from './components/django/django.component';
 import { LaravelComponent } from './components/laravel/laravel.component';
 import { IonicComponent } from './components/ionic/ionic.component';
 import { RubyComponent } from './components/ruby/ruby.component';
+import { VideogameComponent } from './components/videogame/videogame.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { RubyComponent } from './components/ruby/ruby.component';
     DjangoComponent,
     LaravelComponent,
     IonicComponent,
-    RubyComponent
+    RubyComponent,
+    VideogameComponent
   ],
   imports: [
     BrowserModule,
