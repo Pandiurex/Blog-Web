@@ -336,6 +336,46 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/videogame/videogame.component.html":
+  /*!*****************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/videogame/videogame.component.html ***!
+    \*****************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsVideogameVideogameComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div>\n  <div class=\"image\">\n    <img src=\"assets/juego (1).jpg\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Video Juego en el Navegador</h1>\n      <p>\n        El juego que vamos a poder jugar en nuestro dispositivo es Asteroids:\n        Asteroids es un popular videojuego de arcade basado en vectores lanzado\n        en 1979 por Atari. El objetivo del juego es disparar y destruir\n        asteroides evitando chocar contra los fragmentos de estos. Fue uno de\n        los juegos más populares de la Época Dorada de los videojuegos arcade.\n        Asteroids fue inspirado por el juego Spacewar!, el primer videojuego de\n        computadora. En el año 1977, Cinematronics lanzó Space Wars, un juego\n        similar, también basado en Spacewar!. Asteroids en esencialmente una\n        versión de un jugador de Space Wars, caracterizado por la nave y los\n        asteroides como enemigo principal.\n      </p>\n\n      <h1>Asteroids en Windows y Linux</h1>\n      <div>\n        <img src=\"assets/win-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n      <div>\n        <img src=\"assets/linux-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n\n      <p>\n        Para ver poder jugar solo necesitan descargarse el juego aqui\n\n        <a href=\"https://rubyonrails.org\" target=\"blank\">Asteroids</a>\n      </p>\n      <div>\n        <img src=\"assets/juego (1).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Para ir avanzando en los niveles vamos a tener que matar a todas las\n        navecitas\n      </p>\n\n      <div>\n        <img src=\"assets/juego (2).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Una vez derrotadas podran avanzar al siguiente nivel y asi hasta que\n        mueran\n      </p>\n      <div>\n        <img src=\"assets/juego (3).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        En el lado superior izquierdo podremos observar el puntaje que llevamos\n      </p>\n      <div>\n        <img src=\"assets/juego (4).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Del lado derecho podremos observar las vidas restantes del juego\n      </p>\n      <div>\n        <img src=\"assets/juego (5).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Aqui aparece que ganamos y nos pregunta si deseamos volver a jugar.\n      </p>\n      <div>\n        <img src=\"assets/juego (6).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        De no ser asi nos saldra el siguiente mensaje\n      </p>\n      <div>\n        <img src=\"assets/juego (7).jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n    </div>\n  </div>\n</div>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/windows-server/windows-server.component.html":
+  /*!***************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/windows-server/windows-server.component.html ***!
+    \***************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsWindowsServerWindowsServerComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div>\n  <div class=\"image\">\n    <img src=\"assets/wslogo.jpg\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Windows Server</h1>\n      <p>\n        Windows Server 2019 es el más reciente sistema operativo producido por\n        Microsoft para su familia de servidores. Microsoft lo anunció el 20 de\n        marzo de 2018, y la primera vista previa Windows Insider fue lanzada el\n        mismo día. Se lanzó comercialmente el 2 de octubre de 2018.1​ Al igual\n        que su predecesor,2​ Windows Server 2019 tiene solo dos versiones:\n        Standard y Datacenter, siendo este último el que ofrece mayores\n        prestaciones como SMB Direct o características que no están disponibles\n        en Windows Server 2019 Standard3​ y Storage Spaces Direct,4​ y también\n        un mayor soporte a máquinas virtuales con Hyper-V, que está disponible\n        en las dos versiones. El instalador ofrece la posibilidad de instalar en\n        modo Core (interfaz de usuario mínima) para administración remota, o\n        Experiencia de escritorio (interfaz de usuario completa) para\n        administración local.\n      </p>\n      <h1>Caracteristicas Principales</h1>\n      <ul>\n        <li>\n          Windows Subsystem for Linux (WSL)\n        </li>\n        <li>\n          Soporte para Kubernetes (Beta)\n        </li>\n        <li>\n          Otras características de interfaz nuevas introducidas en Windows 10,\n          versión 1809.\n        </li>\n        <li>\n          Storage Spaces Direct (Únicamente en edición Datacenter)\n        </li>\n        <li>\n          SMB Direct (Únicamente en edición Datacenter)\n        </li>\n        <li>\n          Storage Migration Service\n        </li>\n        <li>\n          Storage Replica\n        </li>\n        <li>\n          System Insights\n        </li>\n        <li>\n          Mejoras en Windows Defender\n        </li>\n      </ul>\n\n      <h1>Guia de Instalacion de Windows Server</h1>\n\n      <p>\n        Para ver poder instalar Windows Server, debemos abrir nuestro navegador\n        y buscamos Windows Server en nuestro servicio de busqueda preferida, ya\n        sea Google, Yahoo, Bing, etc, yo les proporciono el link aqui:\n\n        <a\n          href=\"https://www.microsoft.com/es-es/cloud-platform/windows-server-trial\"\n          target=\"blank\"\n          >Windows Server</a\n        >\n      </p>\n\n      <div>\n        <img src=\"assets/win-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n\n      <h3>Primero crearemos memoria booteable con imagen de Windows Server</h3>\n      <ul>\n        <li>\n          Conecta tu USB al ordenador y asegúrate de respaldar cualquier archivo\n          importante en él antes de continuar, puesto que este proceso borrará\n          todos los datos que contenga.\n        </li>\n        <li>\n          Ejecuta Rufus (se recomienda descargar la version portable,\n          <a\n            href=\"https://github.com/pbatard/rufus/releases/download/v3.8/rufus-3.8p.exe\"\n            >click aqui para descargar</a\n          >)\n        </li>\n        <li>\n          Una vez descargado lo ejecutamos y nos mostrara esta ventana\n        </li>\n        <img src=\"assets/rufus-1.jpg\" alt=\"\" />\n        <li>\n          Seleccionamos nuestra memoria USB en la lista que aparece arriba\n        </li>\n        <li>\n          Damos click en el boton de Seleccionar donde se nos abrira un\n          seleccionador de archivos, elegiremos la imagen iso del sistema\n          operativo que vamos a bootear\n        </li>\n\n        <li>\n          Si se desea cambiar el nombre al dispositivo, se lo pondremos donde\n          dice etiqueta de volumen, el resto de configuraciones lo dejamos como\n          esta\n        </li>\n        <li>\n          Le daremos click a Empezar para que comience el formateo y\n          configuracion de la memoria USB y solo esperamos a que el proceso\n          termine\n        </li>\n        <img src=\"assets/rufus-2.jpg\" alt=\"\" />\n        <img src=\"assets/rufus-3.jpg\" alt=\"\" />\n      </ul>\n      <p>\n        Una vez que tenemos la memoria lista, reiniciamos el equipo y booteamos\n        desde la memoria, ahora solo seleccionamos el sistema que queremos\n      </p>\n      <div>\n        <img src=\"assets/ws1.1.jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Leemos y aceptamos los Terminos de Licencia\n      </p>\n\n      <div>\n        <img src=\"assets/ws1.2.jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Seleccionamos el personalizado para elegir la particion, particionamos,\n        formateamos y empezara la instalacion\n      </p>\n      <div>\n        <img src=\"assets/ws1.3.jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n\n      <p>\n        Una vez hecho los pasos anteriores comenzara la instalacion del sistema\n      </p>\n      <div>\n        <img src=\"assets/ws1.4.jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Una vez terminado la instalacion se reiniciara nuestro sistema y se\n        iniciara nuestro windows server\n      </p>\n\n      <div>\n        <img src=\"assets/ws1.5.jpg\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Ahora comenzaremos con la configuracion de nuestro servidor, para ello\n        abriremos el panel de servidores y se mostrara la siguiente pantalla\n      </p>\n\n      <div>\n        <img src=\"assets/ws1.png\" alt=\"software\" class=\"image-cont\" />\n\n        <p>\n          Seleccionamos servidor local, agregamos nuevos roles al servidor y\n          escogemos la opcion que dice Active Directory\n        </p>\n        <div>\n          <img src=\"assets/ws3.png\" alt=\"software\" class=\"image-cont\" />\n        </div>\n        <div>\n          <p>\n            El resto de opciones las dejamos tal cual estan\n          </p>\n          <div>\n            <img src=\"assets/ws4.png\" alt=\"software\" class=\"image-cont\" />\n          </div>\n          <p>\n            Le damos siguiente y comenzara la instalacion de nuestro rol\n            personalizado con Active Directory\n          </p>\n          <div>\n            <img src=\"assets/ws5.png\" alt=\"software\" class=\"image-cont\" />\n          </div>\n          <p>\n            Despues simplemente configuramos la nueva implementacion\n          </p>\n          <div>\n            <img src=\"assets/ws6.png\" alt=\"software\" class=\"image-cont\" />\n          </div>\n          <p>\n            Agregamos un nuevo bosque y escogeremos el dominio para nuestro\n            servidor\n          </p>\n          <div>\n            <img src=\"assets/ws7.png\" alt=\"software\" class=\"image-cont\" />\n          </div>\n          <p>\n            Una vez instalada nos aparecera una pantalla como la siguiente\n          </p>\n          <div>\n            <img src=\"assets/ws8.png\" alt=\"software\" class=\"image-cont\" />\n          </div>\n          <p>\n            Finalmente podremos configurar nuestro Active Directory\n          </p>\n          <div>\n            <img src=\"assets/ws9.png\" alt=\"software\" class=\"image-cont\" />\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/windows/windows.component.html":
   /*!*************************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/windows/windows.component.html ***!
@@ -1004,38 +1044,56 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./components/ruby/ruby.component */
     "./src/app/components/ruby/ruby.component.ts");
+    /* harmony import */
+
+
+    var _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! ./components/videogame/videogame.component */
+    "./src/app/components/videogame/videogame.component.ts");
+    /* harmony import */
+
+
+    var _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! ./components/windows-server/windows-server.component */
+    "./src/app/components/windows-server/windows-server.component.ts");
 
     var routes = [{
-      path: 'home',
+      path: "home",
       component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
     }, {
-      path: 'Linux',
+      path: "Linux",
       component: _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_5__["LinuxComponent"]
     }, {
-      path: 'Windows',
+      path: "Windows",
       component: _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_4__["WindowsComponent"]
     }, {
-      path: 'Servicios',
+      path: "Servicios",
       component: _components_services_services_component__WEBPACK_IMPORTED_MODULE_6__["ServicesComponent"]
     }, {
-      path: 'Free-Office',
+      path: "Free-Office",
       component: _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_7__["FreeOfficeComponent"]
     }, {
-      path: 'Django',
+      path: "Django",
       component: _components_django_django_component__WEBPACK_IMPORTED_MODULE_8__["DjangoComponent"]
     }, {
-      path: 'Laravel',
+      path: "Laravel",
       component: _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_9__["LaravelComponent"]
     }, {
-      path: 'Ionic',
+      path: "Ionic",
       component: _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_10__["IonicComponent"]
     }, {
-      path: 'Ruby',
+      path: "Ruby",
       component: _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_11__["RubyComponent"]
     }, {
-      path: '**',
-      pathMatch: 'full',
-      redirectTo: 'home'
+      path: "VideoJuego",
+      component: _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_12__["VideogameComponent"]
+    }, {
+      path: "Windows Server",
+      component: _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_13__["WindowsServerComponent"]
+    }, {
+      path: "**",
+      pathMatch: "full",
+      redirectTo: "home"
     }];
 
     var AppRoutingModule = function AppRoutingModule() {
@@ -1260,13 +1318,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./components/ruby/ruby.component */
     "./src/app/components/ruby/ruby.component.ts");
+    /* harmony import */
+
+
+    var _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    /*! ./components/videogame/videogame.component */
+    "./src/app/components/videogame/videogame.component.ts");
+    /* harmony import */
+
+
+    var _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    /*! ./components/windows-server/windows-server.component */
+    "./src/app/components/windows-server/windows-server.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], _components_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_8__["DropdownComponent"], _components_search_search_component__WEBPACK_IMPORTED_MODULE_9__["SearchComponent"], _components_drop_soft_drop_soft_component__WEBPACK_IMPORTED_MODULE_10__["DropSoftComponent"], _components_images_images_component__WEBPACK_IMPORTED_MODULE_11__["ImagesComponent"], _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__["WindowsComponent"], _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"], _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"], _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"], _components_django_django_component__WEBPACK_IMPORTED_MODULE_16__["DjangoComponent"], _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__["LaravelComponent"], _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_18__["IonicComponent"], _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__["RubyComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], _components_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_8__["DropdownComponent"], _components_search_search_component__WEBPACK_IMPORTED_MODULE_9__["SearchComponent"], _components_drop_soft_drop_soft_component__WEBPACK_IMPORTED_MODULE_10__["DropSoftComponent"], _components_images_images_component__WEBPACK_IMPORTED_MODULE_11__["ImagesComponent"], _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__["WindowsComponent"], _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"], _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"], _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"], _components_django_django_component__WEBPACK_IMPORTED_MODULE_16__["DjangoComponent"], _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__["LaravelComponent"], _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_18__["IonicComponent"], _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__["RubyComponent"], _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__["VideogameComponent"], _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_21__["WindowsServerComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -1802,7 +1872,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9pb25pYy9pb25pYy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxnQkFBZ0I7RUFDaEIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaW9uaWMvaW9uaWMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiA4MDBweDtcclxufVxyXG5cclxuLmxvZ28ge1xyXG4gIGhlaWdodDogYXV0bztcclxuICB3aWR0aDogMjUlO1xyXG59XHJcblxyXG4uaW1hZ2VuIHtcclxuICB3aWR0aDogNTAlO1xyXG4gIGhlaWdodDogNTAwcHg7XHJcbn1cclxuXHJcbi5pbWFnZSB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaXQge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmVkaWNpb24gcCB7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIG1hcmdpbjogNTBweCAwO1xyXG59XHJcblxyXG4uZWRpY2lvbiBoMixcclxuaDEge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbn1cclxuXHJcbi5lZGljaW9uIGxpIHtcclxuICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XHJcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XHJcbiAgbWFyZ2luOiAyMHB4IDA7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5zZXJ2aWNlLWltZyB7XHJcbiAgd2lkdGg6IDQwJTtcclxuICBoZWlnaHQ6IGF1dG87XHJcbn1cclxuXHJcbi5pbWFnZS1jb250IHtcclxuICB3aWR0aDogNTAlO1xyXG59XHJcbiJdfQ== */";
+    __webpack_exports__["default"] = ".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n  height: auto;\n  width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0;\n}\n\n.edicion h2,\nh1 {\n  margin-top: 50px;\n  text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img {\n  width: 40%;\n  height: auto;\n}\n\n.image-cont {\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9pb25pYy9pb25pYy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxnQkFBZ0I7RUFDaEIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaW9uaWMvaW9uaWMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDgwMHB4O1xufVxuXG4ubG9nbyB7XG4gIGhlaWdodDogYXV0bztcbiAgd2lkdGg6IDI1JTtcbn1cblxuLmltYWdlbiB7XG4gIHdpZHRoOiA1MCU7XG4gIGhlaWdodDogNTAwcHg7XG59XG5cbi5pbWFnZSB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5lZGl0IHtcbiAgcGFkZGluZzogMDtcbn1cblxuLmVkaWNpb24ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xuICBjb2xvcjogI2ZmZmZmZjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uZWRpY2lvbiBwIHtcbiAgZm9udC1zaXplOiAyNXB4O1xuICBtYXJnaW46IDUwcHggMDtcbn1cblxuLmVkaWNpb24gaDIsXG5oMSB7XG4gIG1hcmdpbi10b3A6IDUwcHg7XG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xufVxuXG4uZWRpY2lvbiBsaSB7XG4gIGJvcmRlci1yYWRpdXM6IDJweDtcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XG4gIGJvcmRlci1jb2xvcjogcmVkO1xuICBtYXJnaW46IDIwcHggMDtcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICBmb250LXNpemU6IDI1cHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLnNlcnZpY2UtaW1nIHtcbiAgd2lkdGg6IDQwJTtcbiAgaGVpZ2h0OiBhdXRvO1xufVxuXG4uaW1hZ2UtY29udCB7XG4gIHdpZHRoOiA1MCU7XG59XG4iXX0= */";
     /***/
   },
 
@@ -2039,7 +2109,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9ydWJ5L3J1YnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxZQUFZO0VBQ1osVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0VBQ2Qsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7QUFDaEI7O0FBRUE7O0VBRUUsZ0JBQWdCO0VBQ2hCLDBCQUEwQjtBQUM1Qjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixvQkFBb0I7RUFDcEIsaUJBQWlCO0VBQ2pCLGNBQWM7RUFDZCxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLFVBQVU7RUFDVixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxVQUFVO0FBQ1oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3J1YnkvcnVieS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4taW1hZ2VuIHtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDgwMHB4O1xyXG59XHJcblxyXG4ubG9nbyB7XHJcbiAgaGVpZ2h0OiBhdXRvO1xyXG4gIHdpZHRoOiAyNSU7XHJcbn1cclxuXHJcbi5pbWFnZW4ge1xyXG4gIHdpZHRoOiA1MCU7XHJcbiAgaGVpZ2h0OiA1MDBweDtcclxufVxyXG5cclxuLmltYWdlIHtcclxuICBwYWRkaW5nOiAwO1xyXG59XHJcblxyXG4uZWRpdCB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaWNpb24ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMxMzUyODU7XHJcbiAgY29sb3I6ICNmZmZmZmY7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uZWRpY2lvbiBwIHtcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgbWFyZ2luOiA1MHB4IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIGgyLFxyXG5oMSB7XHJcbiAgbWFyZ2luLXRvcDogNTBweDtcclxuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxufVxyXG5cclxuLmVkaWNpb24gbGkge1xyXG4gIGJvcmRlci1yYWRpdXM6IDJweDtcclxuICBib3JkZXItc3R5bGU6IGRvdWJsZTtcclxuICBib3JkZXItY29sb3I6IHJlZDtcclxuICBtYXJnaW46IDIwcHggMDtcclxuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLnNlcnZpY2UtaW1nIHtcclxuICB3aWR0aDogNDAlO1xyXG4gIGhlaWdodDogYXV0bztcclxufVxyXG5cclxuLmltYWdlLWNvbnQge1xyXG4gIHdpZHRoOiA1MCU7XHJcbn1cclxuIl19 */";
+    __webpack_exports__["default"] = ".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n  height: auto;\n  width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0;\n}\n\n.edicion h2,\nh1 {\n  margin-top: 50px;\n  text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img {\n  width: 40%;\n  height: auto;\n}\n\n.image-cont {\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9ydWJ5L3J1YnkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxZQUFZO0VBQ1osVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixjQUFjO0VBQ2Qsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGNBQWM7QUFDaEI7O0FBRUE7O0VBRUUsZ0JBQWdCO0VBQ2hCLDBCQUEwQjtBQUM1Qjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixvQkFBb0I7RUFDcEIsaUJBQWlCO0VBQ2pCLGNBQWM7RUFDZCxxQkFBcUI7RUFDckIsZUFBZTtFQUNmLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLFVBQVU7RUFDVixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxVQUFVO0FBQ1oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3J1YnkvcnVieS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1haW4taW1hZ2VuIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogODAwcHg7XG59XG5cbi5sb2dvIHtcbiAgaGVpZ2h0OiBhdXRvO1xuICB3aWR0aDogMjUlO1xufVxuXG4uaW1hZ2VuIHtcbiAgd2lkdGg6IDUwJTtcbiAgaGVpZ2h0OiA1MDBweDtcbn1cblxuLmltYWdlIHtcbiAgcGFkZGluZzogMDtcbn1cblxuLmVkaXQge1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZWRpY2lvbiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMxMzUyODU7XG4gIGNvbG9yOiAjZmZmZmZmO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5lZGljaW9uIHAge1xuICBmb250LXNpemU6IDI1cHg7XG4gIG1hcmdpbjogNTBweCAwO1xufVxuXG4uZWRpY2lvbiBoMixcbmgxIHtcbiAgbWFyZ2luLXRvcDogNTBweDtcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG59XG5cbi5lZGljaW9uIGxpIHtcbiAgYm9yZGVyLXJhZGl1czogMnB4O1xuICBib3JkZXItc3R5bGU6IGRvdWJsZTtcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XG4gIG1hcmdpbjogMjBweCAwO1xuICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uc2VydmljZS1pbWcge1xuICB3aWR0aDogNDAlO1xuICBoZWlnaHQ6IGF1dG87XG59XG5cbi5pbWFnZS1jb250IHtcbiAgd2lkdGg6IDUwJTtcbn1cbiJdfQ== */";
     /***/
   },
 
@@ -2417,6 +2487,164 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./navbar.component.css */
       "./src/app/components/shared/navbar/navbar.component.css")).default]
     })], NavbarComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/videogame/videogame.component.css":
+  /*!**************************************************************!*\
+    !*** ./src/app/components/videogame/videogame.component.css ***!
+    \**************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsVideogameVideogameComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n  height: auto;\n  width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0;\n}\n\n.edicion h2,\nh1 {\n  margin-top: 50px;\n  text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img {\n  width: 40%;\n  height: auto;\n}\n\n.image-cont {\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlb2dhbWUvdmlkZW9nYW1lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtBQUNmOztBQUVBO0VBQ0UsWUFBWTtFQUNaLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7RUFDVixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixjQUFjO0FBQ2hCOztBQUVBOztFQUVFLGdCQUFnQjtFQUNoQiwwQkFBMEI7QUFDNUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkOztBQUVBO0VBQ0UsVUFBVTtBQUNaIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy92aWRlb2dhbWUvdmlkZW9nYW1lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi1pbWFnZW4ge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiA4MDBweDtcbn1cblxuLmxvZ28ge1xuICBoZWlnaHQ6IGF1dG87XG4gIHdpZHRoOiAyNSU7XG59XG5cbi5pbWFnZW4ge1xuICB3aWR0aDogNTAlO1xuICBoZWlnaHQ6IDUwMHB4O1xufVxuXG4uaW1hZ2Uge1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZWRpdCB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5lZGljaW9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzEzNTI4NTtcbiAgY29sb3I6ICNmZmZmZmY7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmVkaWNpb24gcCB7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgbWFyZ2luOiA1MHB4IDA7XG59XG5cbi5lZGljaW9uIGgyLFxuaDEge1xuICBtYXJnaW4tdG9wOiA1MHB4O1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbn1cblxuLmVkaWNpb24gbGkge1xuICBib3JkZXItcmFkaXVzOiAycHg7XG4gIGJvcmRlci1zdHlsZTogZG91YmxlO1xuICBib3JkZXItY29sb3I6IHJlZDtcbiAgbWFyZ2luOiAyMHB4IDA7XG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcbiAgZm9udC1zaXplOiAyNXB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5zZXJ2aWNlLWltZyB7XG4gIHdpZHRoOiA0MCU7XG4gIGhlaWdodDogYXV0bztcbn1cblxuLmltYWdlLWNvbnQge1xuICB3aWR0aDogNTAlO1xufVxuIl19 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/videogame/videogame.component.ts":
+  /*!*************************************************************!*\
+    !*** ./src/app/components/videogame/videogame.component.ts ***!
+    \*************************************************************/
+
+  /*! exports provided: VideogameComponent */
+
+  /***/
+  function srcAppComponentsVideogameVideogameComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "VideogameComponent", function () {
+      return VideogameComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var VideogameComponent =
+    /*#__PURE__*/
+    function () {
+      function VideogameComponent() {
+        _classCallCheck(this, VideogameComponent);
+      }
+
+      _createClass(VideogameComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return VideogameComponent;
+    }();
+
+    VideogameComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-videogame',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./videogame.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/videogame/videogame.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./videogame.component.css */
+      "./src/app/components/videogame/videogame.component.css")).default]
+    })], VideogameComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/windows-server/windows-server.component.css":
+  /*!************************************************************************!*\
+    !*** ./src/app/components/windows-server/windows-server.component.css ***!
+    \************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsWindowsServerWindowsServerComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy93aW5kb3dzLXNlcnZlci93aW5kb3dzLXNlcnZlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxnQkFBZ0I7RUFDaEIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvd2luZG93cy1zZXJ2ZXIvd2luZG93cy1zZXJ2ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiA4MDBweDtcclxufVxyXG5cclxuLmxvZ28ge1xyXG4gIGhlaWdodDogYXV0bztcclxuICB3aWR0aDogMjUlO1xyXG59XHJcblxyXG4uaW1hZ2VuIHtcclxuICB3aWR0aDogNTAlO1xyXG4gIGhlaWdodDogNTAwcHg7XHJcbn1cclxuXHJcbi5pbWFnZSB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaXQge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmVkaWNpb24gcCB7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIG1hcmdpbjogNTBweCAwO1xyXG59XHJcblxyXG4uZWRpY2lvbiBoMixcclxuaDEge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbn1cclxuXHJcbi5lZGljaW9uIGxpIHtcclxuICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XHJcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XHJcbiAgbWFyZ2luOiAyMHB4IDA7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5zZXJ2aWNlLWltZyB7XHJcbiAgd2lkdGg6IDQwJTtcclxuICBoZWlnaHQ6IGF1dG87XHJcbn1cclxuXHJcbi5pbWFnZS1jb250IHtcclxuICB3aWR0aDogNTAlO1xyXG59XHJcbiJdfQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/windows-server/windows-server.component.ts":
+  /*!***********************************************************************!*\
+    !*** ./src/app/components/windows-server/windows-server.component.ts ***!
+    \***********************************************************************/
+
+  /*! exports provided: WindowsServerComponent */
+
+  /***/
+  function srcAppComponentsWindowsServerWindowsServerComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "WindowsServerComponent", function () {
+      return WindowsServerComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var WindowsServerComponent =
+    /*#__PURE__*/
+    function () {
+      function WindowsServerComponent() {
+        _classCallCheck(this, WindowsServerComponent);
+      }
+
+      _createClass(WindowsServerComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return WindowsServerComponent;
+    }();
+
+    WindowsServerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-windows-server',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./windows-server.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/windows-server/windows-server.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./windows-server.component.css */
+      "./src/app/components/windows-server/windows-server.component.css")).default]
+    })], WindowsServerComponent);
     /***/
   },
 
