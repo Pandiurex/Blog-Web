@@ -1,0 +1,207 @@
+<div>
+  <div class="image">
+    <img src="assets/wslogo.jpg" alt="software" class="main-imagen" />
+  </div>
+  <div class="row">
+    <div class="col-sm-12 edicion">
+      <h1>Windows Server</h1>
+      <p>
+        Windows Server 2019 es el más reciente sistema operativo producido por
+        Microsoft para su familia de servidores. Microsoft lo anunció el 20 de
+        marzo de 2018, y la primera vista previa Windows Insider fue lanzada el
+        mismo día. Se lanzó comercialmente el 2 de octubre de 2018.1​ Al igual
+        que su predecesor,2​ Windows Server 2019 tiene solo dos versiones:
+        Standard y Datacenter, siendo este último el que ofrece mayores
+        prestaciones como SMB Direct o características que no están disponibles
+        en Windows Server 2019 Standard3​ y Storage Spaces Direct,4​ y también
+        un mayor soporte a máquinas virtuales con Hyper-V, que está disponible
+        en las dos versiones. El instalador ofrece la posibilidad de instalar en
+        modo Core (interfaz de usuario mínima) para administración remota, o
+        Experiencia de escritorio (interfaz de usuario completa) para
+        administración local.
+      </p>
+      <h1>Caracteristicas Principales</h1>
+      <ul>
+        <li>
+          Windows Subsystem for Linux (WSL)
+        </li>
+        <li>
+          Soporte para Kubernetes (Beta)
+        </li>
+        <li>
+          Otras características de interfaz nuevas introducidas en Windows 10,
+          versión 1809.
+        </li>
+        <li>
+          Storage Spaces Direct (Únicamente en edición Datacenter)
+        </li>
+        <li>
+          SMB Direct (Únicamente en edición Datacenter)
+        </li>
+        <li>
+          Storage Migration Service
+        </li>
+        <li>
+          Storage Replica
+        </li>
+        <li>
+          System Insights
+        </li>
+        <li>
+          Mejoras en Windows Defender
+        </li>
+      </ul>
+
+      <h1>Guia de Instalacion de Windows Server</h1>
+
+      <p>
+        Para ver poder instalar Windows Server, debemos abrir nuestro navegador
+        y buscamos Windows Server en nuestro servicio de busqueda preferida, ya
+        sea Google, Yahoo, Bing, etc, yo les proporciono el link aqui:
+
+        <a
+          href="https://www.microsoft.com/es-es/cloud-platform/windows-server-trial"
+          target="blank"
+          >Windows Server</a
+        >
+      </p>
+
+      <div>
+        <img src="assets/win-logo.jpg" alt="" class="logo" />
+      </div>
+
+      <h3>Primero crearemos memoria booteable con imagen de Windows Server</h3>
+      <ul>
+        <li>
+          Conecta tu USB al ordenador y asegúrate de respaldar cualquier archivo
+          importante en él antes de continuar, puesto que este proceso borrará
+          todos los datos que contenga.
+        </li>
+        <li>
+          Ejecuta Rufus (se recomienda descargar la version portable,
+          <a
+            href="https://github.com/pbatard/rufus/releases/download/v3.8/rufus-3.8p.exe"
+            >click aqui para descargar</a
+          >)
+        </li>
+        <li>
+          Una vez descargado lo ejecutamos y nos mostrara esta ventana
+        </li>
+        <img src="assets/rufus-1.jpg" alt="" />
+        <li>
+          Seleccionamos nuestra memoria USB en la lista que aparece arriba
+        </li>
+        <li>
+          Damos click en el boton de Seleccionar donde se nos abrira un
+          seleccionador de archivos, elegiremos la imagen iso del sistema
+          operativo que vamos a bootear
+        </li>
+
+        <li>
+          Si se desea cambiar el nombre al dispositivo, se lo pondremos donde
+          dice etiqueta de volumen, el resto de configuraciones lo dejamos como
+          esta
+        </li>
+        <li>
+          Le daremos click a Empezar para que comience el formateo y
+          configuracion de la memoria USB y solo esperamos a que el proceso
+          termine
+        </li>
+        <img src="assets/rufus-2.jpg" alt="" />
+        <img src="assets/rufus-3.jpg" alt="" />
+      </ul>
+      <p>
+        Una vez que tenemos la memoria lista, reiniciamos el equipo y booteamos
+        desde la memoria, ahora solo seleccionamos el sistema que queremos
+      </p>
+      <div>
+        <img src="assets/ws1.1.jpg" alt="software" class="image-cont" />
+      </div>
+      <p>
+        Leemos y aceptamos los Terminos de Licencia
+      </p>
+
+      <div>
+        <img src="assets/ws1.2.jpg" alt="software" class="image-cont" />
+      </div>
+      <p>
+        Seleccionamos el personalizado para elegir la particion, particionamos,
+        formateamos y empezara la instalacion
+      </p>
+      <div>
+        <img src="assets/ws1.3.jpg" alt="software" class="image-cont" />
+      </div>
+
+      <p>
+        Una vez hecho los pasos anteriores comenzara la instalacion del sistema
+      </p>
+      <div>
+        <img src="assets/ws1.4.jpg" alt="software" class="image-cont" />
+      </div>
+      <p>
+        Una vez terminado la instalacion se reiniciara nuestro sistema y se
+        iniciara nuestro windows server
+      </p>
+
+      <div>
+        <img src="assets/ws1.5.jpg" alt="software" class="image-cont" />
+      </div>
+      <p>
+        Ahora comenzaremos con la configuracion de nuestro servidor, para ello
+        abriremos el panel de servidores y se mostrara la siguiente pantalla
+      </p>
+
+      <div>
+        <img src="assets/ws1.png" alt="software" class="image-cont" />
+
+        <p>
+          Seleccionamos servidor local, agregamos nuevos roles al servidor y
+          escogemos la opcion que dice Active Directory
+        </p>
+        <div>
+          <img src="assets/ws3.png" alt="software" class="image-cont" />
+        </div>
+        <div>
+          <p>
+            El resto de opciones las dejamos tal cual estan
+          </p>
+          <div>
+            <img src="assets/ws4.png" alt="software" class="image-cont" />
+          </div>
+          <p>
+            Le damos siguiente y comenzara la instalacion de nuestro rol
+            personalizado con Active Directory
+          </p>
+          <div>
+            <img src="assets/ws5.png" alt="software" class="image-cont" />
+          </div>
+          <p>
+            Despues simplemente configuramos la nueva implementacion
+          </p>
+          <div>
+            <img src="assets/ws6.png" alt="software" class="image-cont" />
+          </div>
+          <p>
+            Agregamos un nuevo bosque y escogeremos el dominio para nuestro
+            servidor
+          </p>
+          <div>
+            <img src="assets/ws7.png" alt="software" class="image-cont" />
+          </div>
+          <p>
+            Una vez instalada nos aparecera una pantalla como la siguiente
+          </p>
+          <div>
+            <img src="assets/ws8.png" alt="software" class="image-cont" />
+          </div>
+          <p>
+            Finalmente podremos configurar nuestro Active Directory
+          </p>
+          <div>
+            <img src="assets/ws9.png" alt="software" class="image-cont" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -10,6 +10,7 @@ import { LaravelComponent } from "./components/laravel/laravel.component";
 import { IonicComponent } from "./components/ionic/ionic.component";
 import { RubyComponent } from "./components/ruby/ruby.component";
 import { VideogameComponent } from "./components/videogame/videogame.component";
+import { WindowsServerComponent } from "./components/windows-server/windows-server.component";
 
 const routes: Routes = [
   { path: "home", component: HomeComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: "Ionic", component: IonicComponent },
   { path: "Ruby", component: RubyComponent },
   { path: "VideoJuego", component: VideogameComponent },
+  { path: "Windows Server", component: WindowsServerComponent },
   { path: "**", pathMatch: "full", redirectTo: "home" }
 ];
 

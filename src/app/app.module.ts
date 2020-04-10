@@ -19,6 +19,7 @@ import { LaravelComponent } from './components/laravel/laravel.component';
 import { IonicComponent } from './components/ionic/ionic.component';
 import { RubyComponent } from './components/ruby/ruby.component';
 import { VideogameComponent } from './components/videogame/videogame.component';
+import { WindowsServerComponent } from './components/windows-server/windows-server.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { VideogameComponent } from './components/videogame/videogame.component';
     LaravelComponent,
     IonicComponent,
     RubyComponent,
-    VideogameComponent
+    VideogameComponent,
+    WindowsServerComponent
   ],
   imports: [
     BrowserModule,
