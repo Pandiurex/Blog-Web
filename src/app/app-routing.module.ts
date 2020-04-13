@@ -11,6 +11,7 @@ import { IonicComponent } from "./components/ionic/ionic.component";
 import { RubyComponent } from "./components/ruby/ruby.component";
 import { VideogameComponent } from "./components/videogame/videogame.component";
 import { WindowsServerComponent } from "./components/windows-server/windows-server.component";
+import { UsersWSComponent } from "./components/users-ws/users-ws.component";
 
 const routes: Routes = [
   { path: "home", component: HomeComponent },
@@ -24,11 +25,12 @@ const routes: Routes = [
   { path: "Ruby", component: RubyComponent },
   { path: "VideoJuego", component: VideogameComponent },
   { path: "Windows Server", component: WindowsServerComponent },
-  { path: "**", pathMatch: "full", redirectTo: "home" }
+  { path: "Usuarios y Grupos Windows Server", component: UsersWSComponent },
+  { path: "**", pathMatch: "full", redirectTo: "home" },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { useHash: true })],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}

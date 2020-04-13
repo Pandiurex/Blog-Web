@@ -20,6 +20,7 @@ import { IonicComponent } from './components/ionic/ionic.component';
 import { RubyComponent } from './components/ruby/ruby.component';
 import { VideogameComponent } from './components/videogame/videogame.component';
 import { WindowsServerComponent } from './components/windows-server/windows-server.component';
+import { UsersWSComponent } from './components/users-ws/users-ws.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { WindowsServerComponent } from './components/windows-server/windows-serv
     IonicComponent,
     RubyComponent,
     VideogameComponent,
-    WindowsServerComponent
+    WindowsServerComponent,
+    UsersWSComponent
   ],
   imports: [
     BrowserModule,

@@ -218,6 +218,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/users-ws/users-ws.component.html":
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/users-ws/users-ws.component.html ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div>\n  <div class=\"image\">\n    <img src=\"assets/wslogo.jpg\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Windows Server Gestion de Usuarios y Grupos</h1>\n      <p>\n        Windows Server 2019 es el más reciente sistema operativo producido por\n        Microsoft para su familia de servidores. Microsoft lo anunció el 20 de\n        marzo de 2018, y la primera vista previa Windows Insider fue lanzada el\n        mismo día. Se lanzó comercialmente el 2 de octubre de 2018.1​ Al igual\n        que su predecesor,2​ Windows Server 2019 tiene solo dos versiones:\n        Standard y Datacenter, siendo este último el que ofrece mayores\n        prestaciones como SMB Direct o características que no están disponibles\n        en Windows Server 2019 Standard3​ y Storage Spaces Direct,4​ y también\n        un mayor soporte a máquinas virtuales con Hyper-V, que está disponible\n        en las dos versiones. El instalador ofrece la posibilidad de instalar en\n        modo Core (interfaz de usuario mínima) para administración remota, o\n        Experiencia de escritorio (interfaz de usuario completa) para\n        administración local.\n      </p>\n      <h1>Caracteristicas Principales</h1>\n      <ul>\n        <li>\n          Windows Subsystem for Linux (WSL)\n        </li>\n        <li>\n          Soporte para Kubernetes (Beta)\n        </li>\n        <li>\n          Otras características de interfaz nuevas introducidas en Windows 10,\n          versión 1809.\n        </li>\n        <li>\n          Storage Spaces Direct (Únicamente en edición Datacenter)\n        </li>\n        <li>\n          SMB Direct (Únicamente en edición Datacenter)\n        </li>\n        <li>\n          Storage Migration Service\n        </li>\n        <li>\n          Storage Replica\n        </li>\n        <li>\n          System Insights\n        </li>\n        <li>\n          Mejoras en Windows Defender\n        </li>\n      </ul>\n\n      <h1>Guia de Creacion de Usuarios</h1>\n\n      <p>\n        El uso de distintas cuentas de usuario es altamente recomendable en\n        Windows, se utilizan para aumentar la privacidad, mejorar la seguridad y\n        permitir la personalización.\n      </p>\n\n      <div>\n        <img src=\"assets/win-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n\n      <p>\n        El primer paso es acceder a la herramienta de Administrador del\n        servidor, puedes hacerlo desde el menú de Inicio.\n      </p>\n      <div>\n        <img src=\"assets/user-ws(1).png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Desde el Administrador del servidor podemos abrir la herramienta de\n        Administración de equipos, para ello nos dirigimos al menu Herramientas\n        -> Administración de Equipos.\n      </p>\n\n      <div>\n        <img src=\"assets/user-ws(2).png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        En la ventana de Administración de equipos puedes agregar nuevos\n        usuarios desde Administración del equipo -> Usuarios y grupos locales ->\n        Usuarios. Pulsando el botón derecho te aparece la opción de Usuario\n        nuevo.\n      </p>\n      <div>\n        <img src=\"assets/user-ws(3).png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n\n      <p>\n        El formulario para crear usuarios es muy intuitivo, simplemnte rellena\n        los datos y presta atención a las opciones de la parte inferior del\n        formulario, para que el comportamiento del usuario se ajuste a tus\n        necesidades.\n      </p>\n      <div>\n        <img src=\"assets/user-ws(4).png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        El proceso de creación de grupos es similar, con la salvedad de que\n        puedes añadir usuarios a los grupos. Para ello simplemente escribe el\n        nombre del usuario en el area de texto y pulsa el botón Comprobar\n        nombres para que se valide. Puedes añadir tantos usuarios como\n        necesites.\n      </p>\n\n      <div>\n        <img src=\"assets/user-ws(5).png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/videogame/videogame.component.html":
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/videogame/videogame.component.html ***!
@@ -510,6 +523,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/ruby/ruby.component */ "./src/app/components/ruby/ruby.component.ts");
 /* harmony import */ var _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/videogame/videogame.component */ "./src/app/components/videogame/videogame.component.ts");
 /* harmony import */ var _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/windows-server/windows-server.component */ "./src/app/components/windows-server/windows-server.component.ts");
+/* harmony import */ var _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/users-ws/users-ws.component */ "./src/app/components/users-ws/users-ws.component.ts");
+
 
 
 
@@ -536,14 +551,15 @@ const routes = [
     { path: "Ruby", component: _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_11__["RubyComponent"] },
     { path: "VideoJuego", component: _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_12__["VideogameComponent"] },
     { path: "Windows Server", component: _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_13__["WindowsServerComponent"] },
-    { path: "**", pathMatch: "full", redirectTo: "home" }
+    { path: "Usuarios y Grupos Windows Server", component: _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_14__["UsersWSComponent"] },
+    { path: "**", pathMatch: "full", redirectTo: "home" },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
 AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
         imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes, { useHash: true })],
-        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]],
     })
 ], AppRoutingModule);
 
@@ -627,6 +643,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/ruby/ruby.component */ "./src/app/components/ruby/ruby.component.ts");
 /* harmony import */ var _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/videogame/videogame.component */ "./src/app/components/videogame/videogame.component.ts");
 /* harmony import */ var _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/windows-server/windows-server.component */ "./src/app/components/windows-server/windows-server.component.ts");
+/* harmony import */ var _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/users-ws/users-ws.component */ "./src/app/components/users-ws/users-ws.component.ts");
+
 
 
 
@@ -671,7 +689,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_18__["IonicComponent"],
             _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__["RubyComponent"],
             _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__["VideogameComponent"],
-            _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_21__["WindowsServerComponent"]
+            _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_21__["WindowsServerComponent"],
+            _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_22__["UsersWSComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -834,24 +853,27 @@ let DropdownComponent = class DropdownComponent {
     constructor() {
         this.menu = [
             {
-                software: 'Windows',
+                software: "Windows",
             },
             {
-                software: 'Linux'
+                software: "Linux",
             },
             {
-                software: 'Windows Server'
+                software: "Windows Server",
             },
             {
-                software: 'Linux Server'
-            }
+                software: "Usuarios y Grupos Windows Server",
+            },
+            {
+                software: "Linux Server",
+            },
         ];
     }
     ngOnInit() { }
 };
 DropdownComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-dropdown',
+        selector: "app-dropdown",
         template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./dropdown.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/dropdown/dropdown.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./dropdown.component.css */ "./src/app/components/dropdown/dropdown.component.css")).default]
     })
@@ -1353,6 +1375,50 @@ NavbarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./navbar.component.css */ "./src/app/components/shared/navbar/navbar.component.css")).default]
     })
 ], NavbarComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/users-ws/users-ws.component.css":
+/*!************************************************************!*\
+  !*** ./src/app/components/users-ws/users-ws.component.css ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy91c2Vycy13cy91c2Vycy13cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxnQkFBZ0I7RUFDaEIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdXNlcnMtd3MvdXNlcnMtd3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiA4MDBweDtcclxufVxyXG5cclxuLmxvZ28ge1xyXG4gIGhlaWdodDogYXV0bztcclxuICB3aWR0aDogMjUlO1xyXG59XHJcblxyXG4uaW1hZ2VuIHtcclxuICB3aWR0aDogNTAlO1xyXG4gIGhlaWdodDogNTAwcHg7XHJcbn1cclxuXHJcbi5pbWFnZSB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaXQge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmVkaWNpb24gcCB7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIG1hcmdpbjogNTBweCAwO1xyXG59XHJcblxyXG4uZWRpY2lvbiBoMixcclxuaDEge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbn1cclxuXHJcbi5lZGljaW9uIGxpIHtcclxuICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XHJcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XHJcbiAgbWFyZ2luOiAyMHB4IDA7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5zZXJ2aWNlLWltZyB7XHJcbiAgd2lkdGg6IDQwJTtcclxuICBoZWlnaHQ6IGF1dG87XHJcbn1cclxuXHJcbi5pbWFnZS1jb250IHtcclxuICB3aWR0aDogNTAlO1xyXG59XHJcbiJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/components/users-ws/users-ws.component.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/components/users-ws/users-ws.component.ts ***!
+  \***********************************************************/
+/*! exports provided: UsersWSComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UsersWSComponent", function() { return UsersWSComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let UsersWSComponent = class UsersWSComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+UsersWSComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-users-ws',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./users-ws.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/users-ws/users-ws.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./users-ws.component.css */ "./src/app/components/users-ws/users-ws.component.css")).default]
+    })
+], UsersWSComponent);
 
 
 
