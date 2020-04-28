@@ -23,6 +23,7 @@ import { WindowsServerComponent } from './components/windows-server/windows-serv
 import { UsersWSComponent } from './components/users-ws/users-ws.component';
 import { LinuxServerComponent } from './components/linux-server/linux-server.component';
 import { LsDjRbyComponent } from './components/ls-dj-rby/ls-dj-rby.component';
+import { SambaComponent } from './components/samba/samba.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { LsDjRbyComponent } from './components/ls-dj-rby/ls-dj-rby.component';
     WindowsServerComponent,
     UsersWSComponent,
     LinuxServerComponent,
-    LsDjRbyComponent
+    LsDjRbyComponent,
+    SambaComponent
   ],
   imports: [
     BrowserModule,

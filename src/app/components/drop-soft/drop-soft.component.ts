@@ -1,38 +1,38 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-drop-soft',
-  templateUrl: './drop-soft.component.html',
-  styleUrls: ['./drop-soft.component.css']
+  selector: "app-drop-soft",
+  templateUrl: "./drop-soft.component.html",
+  styleUrls: ["./drop-soft.component.css"],
 })
 export class DropSoftComponent implements OnInit {
   menu = [
     {
-      software: 'Servicios'
+      software: "Servicios",
     },
     {
-      software: 'Free-Office'
+      software: "Free-Office",
     },
     {
-      software: 'Java'
+      software: "Java",
     },
     {
-      software: 'Django'
+      software: "Django",
     },
     {
-      software: 'Laravel'
+      software: "Laravel",
     },
     {
-      software: 'Ruby'
+      software: "Ruby",
     },
     {
-      software: 'Ionic'
+      software: "Ionic",
     },
     {
-      software: 'VideoJuego'
+      software: "VideoJuego",
     },
     {
-      software: 'Samba'
+      software: "Samba",
     },
   ];
 

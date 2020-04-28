@@ -296,6 +296,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/samba/samba.component.html":
+  /*!*********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/samba/samba.component.html ***!
+    \*********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsSambaSambaComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div>\n  <div class=\"image\">\n    <img src=\"assets/samba-logo.png\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Samba</h1>\n      <p>\n        Samba es una implementación libre del protocolo de archivos compartidos\n        de Microsoft Windows (antiguamente llamado SMB, renombrado recientemente\n        a CIFS) para sistemas de tipo UNIX. De esta forma, es posible que\n        computadoras con GNU/Linux, Mac OS X o Unix en general se vean como\n        servidores o actúen como clientes en redes de Windows. Samba también\n        permite validar usuarios haciendo de Controlador Principal de Dominio\n        (PDC), como miembro de dominio e incluso como un dominio Active\n        Directory para redes basadas en Windows; aparte de ser capaz de servir\n        colas de impresión, directorios compartidos y autentificar con su propio\n        archivo de usuarios. Entre los sistemas tipo Unix en los que se puede\n        ejecutar Samba, están las distribuciones GNU/Linux, Solaris y las\n        diferentes variantes BSD entre las que podemos encontrar el Mac OS X\n        Server de Apple.\n      </p>\n      <h1>Caracteristicas Principales</h1>\n      <p>\n        Samba es una implementación de servicios y protocolos, entre los que\n        están: NetBIOS sobre TCP/IP (NetBT), SMB (también conocido como CIFS),\n        DCE/RPC o más concretamente, MSRPC, el servidor WINS también conocido\n        como el servidor de nombres NetBIOS (NBNS), la suite de protocolos del\n        dominio NT, con su Logon de entrada a dominio, la base de datos del\n        gestor de cuentas seguras (SAM), el servicio Local Security Authority\n        (LSA) o autoridad de seguridad local, el servicio de impresoras de NT y\n        recientemente el Logon de entrada de Active Directory, que incluye una\n        versión modificada de Kerberos y una versión modificada de LDAP. Todos\n        estos servicios y protocolos son frecuentemente referidos de un modo\n        incorrecto como NetBIOS o SMB. A partir de la versión 4.10.0 ofrece\n        soporte completo para Python 3 y aunque mantiene compatibilidad con\n        Python 2, esta debe ser configurada de manera explícita;1​2​ sin\n        embargo, a futuro, dicho soporte a Python 2 será retirado.\n      </p>\n\n      <h1>Samba</h1>\n\n      <p>\n        Para ver poder instalar Samba, debemos abrir una terminal en nuestro\n        sistema Linux\n      </p>\n      <div>\n        <img src=\"assets/samba1.png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Comprobamos la version y si se instalo correctamente\n      </p>\n\n      <div>\n        <img src=\"assets/samba2.png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Vemos si el servicio esta activo\n      </p>\n      <div>\n        <img src=\"assets/samba3.png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n\n      <p>\n        Corremos samba con este comando \"sudo system-config-samba\"\n      </p>\n      <div>\n        <img src=\"assets/samba4.png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        En esta pantalla podremos ver las descripcion del programa, y\n        simplemente pasamos a la seccion de descarga\n      </p>\n\n      <div>\n        <img src=\"assets/samba5.png\" alt=\"software\" class=\"image-cont\" />\n      </div>\n      <p>\n        Verificamos el workgroup de las otras maquinas\n      </p>\n\n      <div>\n        <img src=\"assets/samba6.png\" alt=\"software\" class=\"image-cont\" />\n\n        <p>\n          Nos vamos a server settings y configuramos el workgroup general\n        </p>\n        <div>\n          <img src=\"assets/samba7.png\" alt=\"software\" class=\"image-cont\" />\n        </div>\n        <div>\n          <p>\n            Despues configuramos la carpeta a compartir\n          </p>\n          <div>\n            <img src=\"assets/samba8.png\" alt=\"software\" class=\"image-cont\" />\n          </div>\n          <p>\n            Le damos acceso a todos\n          </p>\n          <div>\n            <img src=\"assets/samba9.png\" alt=\"software\" class=\"image-cont\" />\n          </div>\n          <p>\n            Asi quedaria la ruta a compartir\n          </p>\n          <div>\n            <img src=\"assets/samba10.png\" alt=\"software\" class=\"image-cont\" />\n          </div>\n          <p>\n            Podemos ver que se a compartido de manera exitosa\n          </p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/search/search.component.html":
   /*!***********************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/search/search.component.html ***!
@@ -1134,6 +1154,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_ls_dj_rby_ls_dj_rby_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
     /*! ./components/ls-dj-rby/ls-dj-rby.component */
     "./src/app/components/ls-dj-rby/ls-dj-rby.component.ts");
+    /* harmony import */
+
+
+    var _components_samba_samba_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! ./components/samba/samba.component */
+    "./src/app/components/samba/samba.component.ts");
 
     var routes = [{
       path: "home",
@@ -1153,6 +1179,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }, {
       path: "Django",
       component: _components_django_django_component__WEBPACK_IMPORTED_MODULE_8__["DjangoComponent"]
+    }, {
+      path: "Samba",
+      component: _components_samba_samba_component__WEBPACK_IMPORTED_MODULE_17__["SambaComponent"]
     }, {
       path: "Laravel",
       component: _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_9__["LaravelComponent"]
@@ -1435,13 +1464,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_ls_dj_rby_ls_dj_rby_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
     /*! ./components/ls-dj-rby/ls-dj-rby.component */
     "./src/app/components/ls-dj-rby/ls-dj-rby.component.ts");
+    /* harmony import */
+
+
+    var _components_samba_samba_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    /*! ./components/samba/samba.component */
+    "./src/app/components/samba/samba.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], _components_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_8__["DropdownComponent"], _components_search_search_component__WEBPACK_IMPORTED_MODULE_9__["SearchComponent"], _components_drop_soft_drop_soft_component__WEBPACK_IMPORTED_MODULE_10__["DropSoftComponent"], _components_images_images_component__WEBPACK_IMPORTED_MODULE_11__["ImagesComponent"], _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__["WindowsComponent"], _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"], _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"], _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"], _components_django_django_component__WEBPACK_IMPORTED_MODULE_16__["DjangoComponent"], _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__["LaravelComponent"], _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_18__["IonicComponent"], _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__["RubyComponent"], _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__["VideogameComponent"], _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_21__["WindowsServerComponent"], _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_22__["UsersWSComponent"], _components_linux_server_linux_server_component__WEBPACK_IMPORTED_MODULE_23__["LinuxServerComponent"], _components_ls_dj_rby_ls_dj_rby_component__WEBPACK_IMPORTED_MODULE_24__["LsDjRbyComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], _components_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_8__["DropdownComponent"], _components_search_search_component__WEBPACK_IMPORTED_MODULE_9__["SearchComponent"], _components_drop_soft_drop_soft_component__WEBPACK_IMPORTED_MODULE_10__["DropSoftComponent"], _components_images_images_component__WEBPACK_IMPORTED_MODULE_11__["ImagesComponent"], _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__["WindowsComponent"], _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"], _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"], _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"], _components_django_django_component__WEBPACK_IMPORTED_MODULE_16__["DjangoComponent"], _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__["LaravelComponent"], _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_18__["IonicComponent"], _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__["RubyComponent"], _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__["VideogameComponent"], _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_21__["WindowsServerComponent"], _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_22__["UsersWSComponent"], _components_linux_server_linux_server_component__WEBPACK_IMPORTED_MODULE_23__["LinuxServerComponent"], _components_ls_dj_rby_ls_dj_rby_component__WEBPACK_IMPORTED_MODULE_24__["LsDjRbyComponent"], _components_samba_samba_component__WEBPACK_IMPORTED_MODULE_25__["SambaComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -1587,23 +1622,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, DropSoftComponent);
 
         this.menu = [{
-          software: 'Servicios'
+          software: "Servicios"
         }, {
-          software: 'Free-Office'
+          software: "Free-Office"
         }, {
-          software: 'Java'
+          software: "Java"
         }, {
-          software: 'Django'
+          software: "Django"
         }, {
-          software: 'Laravel'
+          software: "Laravel"
         }, {
-          software: 'Ruby'
+          software: "Ruby"
         }, {
-          software: 'Ionic'
+          software: "Ionic"
         }, {
-          software: 'VideoJuego'
+          software: "VideoJuego"
         }, {
-          software: 'Samba'
+          software: "Samba"
         }];
       }
 
@@ -1616,7 +1651,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }();
 
     DropSoftComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-drop-soft',
+      selector: "app-drop-soft",
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./drop-soft.component.html */
       "./node_modules/raw-loader/dist/cjs.js!./src/app/components/drop-soft/drop-soft.component.html")).default,
@@ -2297,7 +2332,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".main-imagen {\r\n  width: 100%;\r\n  height: 600px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9scy1kai1yYnkvbHMtZGotcmJ5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtBQUNmOztBQUVBO0VBQ0UsWUFBWTtFQUNaLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7RUFDVixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixjQUFjO0FBQ2hCOztBQUVBOztFQUVFLGdCQUFnQjtFQUNoQiwwQkFBMEI7QUFDNUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkOztBQUVBO0VBQ0UsVUFBVTtBQUNaIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9scy1kai1yYnkvbHMtZGotcmJ5LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi1pbWFnZW4ge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogNjAwcHg7XHJcbn1cclxuXHJcbi5sb2dvIHtcclxuICBoZWlnaHQ6IGF1dG87XHJcbiAgd2lkdGg6IDI1JTtcclxufVxyXG5cclxuLmltYWdlbiB7XHJcbiAgd2lkdGg6IDUwJTtcclxuICBoZWlnaHQ6IDUwMHB4O1xyXG59XHJcblxyXG4uaW1hZ2Uge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGl0IHtcclxuICBwYWRkaW5nOiAwO1xyXG59XHJcblxyXG4uZWRpY2lvbiB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzEzNTI4NTtcclxuICBjb2xvcjogI2ZmZmZmZjtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5lZGljaW9uIHAge1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICBtYXJnaW46IDUwcHggMDtcclxufVxyXG5cclxuLmVkaWNpb24gaDIsXHJcbmgxIHtcclxuICBtYXJnaW4tdG9wOiA1MHB4O1xyXG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG59XHJcblxyXG4uZWRpY2lvbiBsaSB7XHJcbiAgYm9yZGVyLXJhZGl1czogMnB4O1xyXG4gIGJvcmRlci1zdHlsZTogZG91YmxlO1xyXG4gIGJvcmRlci1jb2xvcjogcmVkO1xyXG4gIG1hcmdpbjogMjBweCAwO1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uc2VydmljZS1pbWcge1xyXG4gIHdpZHRoOiA0MCU7XHJcbiAgaGVpZ2h0OiBhdXRvO1xyXG59XHJcblxyXG4uaW1hZ2UtY29udCB7XHJcbiAgd2lkdGg6IDUwJTtcclxufVxyXG4iXX0= */";
+    __webpack_exports__["default"] = ".main-imagen {\n  width: 100%;\n  height: 600px;\n}\n\n.logo {\n  height: auto;\n  width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0;\n}\n\n.edicion h2,\nh1 {\n  margin-top: 50px;\n  text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img {\n  width: 40%;\n  height: auto;\n}\n\n.image-cont {\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9scy1kai1yYnkvbHMtZGotcmJ5LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtBQUNmOztBQUVBO0VBQ0UsWUFBWTtFQUNaLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7RUFDVixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixjQUFjO0FBQ2hCOztBQUVBOztFQUVFLGdCQUFnQjtFQUNoQiwwQkFBMEI7QUFDNUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkOztBQUVBO0VBQ0UsVUFBVTtBQUNaIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9scy1kai1yYnkvbHMtZGotcmJ5LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi1pbWFnZW4ge1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiA2MDBweDtcbn1cblxuLmxvZ28ge1xuICBoZWlnaHQ6IGF1dG87XG4gIHdpZHRoOiAyNSU7XG59XG5cbi5pbWFnZW4ge1xuICB3aWR0aDogNTAlO1xuICBoZWlnaHQ6IDUwMHB4O1xufVxuXG4uaW1hZ2Uge1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZWRpdCB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5lZGljaW9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzEzNTI4NTtcbiAgY29sb3I6ICNmZmZmZmY7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLmVkaWNpb24gcCB7XG4gIGZvbnQtc2l6ZTogMjVweDtcbiAgbWFyZ2luOiA1MHB4IDA7XG59XG5cbi5lZGljaW9uIGgyLFxuaDEge1xuICBtYXJnaW4tdG9wOiA1MHB4O1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbn1cblxuLmVkaWNpb24gbGkge1xuICBib3JkZXItcmFkaXVzOiAycHg7XG4gIGJvcmRlci1zdHlsZTogZG91YmxlO1xuICBib3JkZXItY29sb3I6IHJlZDtcbiAgbWFyZ2luOiAyMHB4IDA7XG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcbiAgZm9udC1zaXplOiAyNXB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbi5zZXJ2aWNlLWltZyB7XG4gIHdpZHRoOiA0MCU7XG4gIGhlaWdodDogYXV0bztcbn1cblxuLmltYWdlLWNvbnQge1xuICB3aWR0aDogNTAlO1xufVxuIl19 */";
     /***/
   },
 
@@ -2436,6 +2471,85 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./ruby.component.css */
       "./src/app/components/ruby/ruby.component.css")).default]
     })], RubyComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/samba/samba.component.css":
+  /*!******************************************************!*\
+    !*** ./src/app/components/samba/samba.component.css ***!
+    \******************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsSambaSambaComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".main-imagen {\r\n  width: 100%;\r\n  height: 600px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zYW1iYS9zYW1iYS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxnQkFBZ0I7RUFDaEIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2FtYmEvc2FtYmEuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiA2MDBweDtcclxufVxyXG5cclxuLmxvZ28ge1xyXG4gIGhlaWdodDogYXV0bztcclxuICB3aWR0aDogMjUlO1xyXG59XHJcblxyXG4uaW1hZ2VuIHtcclxuICB3aWR0aDogNTAlO1xyXG4gIGhlaWdodDogNTAwcHg7XHJcbn1cclxuXHJcbi5pbWFnZSB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaXQge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmVkaWNpb24gcCB7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIG1hcmdpbjogNTBweCAwO1xyXG59XHJcblxyXG4uZWRpY2lvbiBoMixcclxuaDEge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbn1cclxuXHJcbi5lZGljaW9uIGxpIHtcclxuICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XHJcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XHJcbiAgbWFyZ2luOiAyMHB4IDA7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5zZXJ2aWNlLWltZyB7XHJcbiAgd2lkdGg6IDQwJTtcclxuICBoZWlnaHQ6IGF1dG87XHJcbn1cclxuXHJcbi5pbWFnZS1jb250IHtcclxuICB3aWR0aDogNTAlO1xyXG59XHJcbiJdfQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/samba/samba.component.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/components/samba/samba.component.ts ***!
+    \*****************************************************/
+
+  /*! exports provided: SambaComponent */
+
+  /***/
+  function srcAppComponentsSambaSambaComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "SambaComponent", function () {
+      return SambaComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var SambaComponent =
+    /*#__PURE__*/
+    function () {
+      function SambaComponent() {
+        _classCallCheck(this, SambaComponent);
+      }
+
+      _createClass(SambaComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return SambaComponent;
+    }();
+
+    SambaComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-samba',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./samba.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/samba/samba.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./samba.component.css */
+      "./src/app/components/samba/samba.component.css")).default]
+    })], SambaComponent);
     /***/
   },
 

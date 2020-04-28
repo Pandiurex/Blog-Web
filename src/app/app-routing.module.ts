@@ -14,6 +14,7 @@ import { WindowsServerComponent } from "./components/windows-server/windows-serv
 import { UsersWSComponent } from "./components/users-ws/users-ws.component";
 import { LinuxServerComponent } from "./components/linux-server/linux-server.component";
 import { LsDjRbyComponent } from "./components/ls-dj-rby/ls-dj-rby.component";
+import { SambaComponent } from "./components/samba/samba.component";
 
 const routes: Routes = [
   { path: "home", component: HomeComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: "Servicios", component: ServicesComponent },
   { path: "Free-Office", component: FreeOfficeComponent },
   { path: "Django", component: DjangoComponent },
+  { path: "Samba", component: SambaComponent },
   { path: "Laravel", component: LaravelComponent },
   { path: "Ionic", component: IonicComponent },
   { path: "Ruby", component: RubyComponent },
