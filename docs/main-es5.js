@@ -216,6 +216,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/linux-server/linux-server.component.html":
+  /*!***********************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/linux-server/linux-server.component.html ***!
+    \***********************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsLinuxServerLinuxServerComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div>\n  <div class=\"image\">\n    <img src=\"assets/linux.jpg\" alt=\"software\" class=\"main-imagen\" />\n  </div>\n  <div class=\"row\">\n    <div class=\"col-sm-12 edicion\">\n      <h1>Linux Server</h1>\n      <p>\n        Aunque si queremos podemos utilizar una distribución Linux de escritorio\n        para nuestro servidor (como Ubuntu), las distribuciones Linux para\n        servidor son algo diferentes a las distros de escritorio. Por ejemplo,\n        las versiones de servidor suelen ser mucho más reducidas que las\n        versiones de escritorio para que cada administrador pueda\n        personalizarlas a su gusto, no suelen tener interfaz gráfica por defecto\n        para ahorrar recursos y cuentan con optimizaciones y funciones diseñadas\n        para ofrecer el máximo rendimiento, la mayor estabilidad y la mejor\n        seguridad posible. En la red existen una gran cantidad de distribuciones\n        Linux para servidor de manera que cada usuario pueda elegir la que mejor\n        se adapte a sus necesidades según la función que vaya a desempeñar el\n        servidor. A continuación, vamos a ver los sistemas más adecuados que\n        podemos usar, tanto para montar un pequeño servidor (como un NAS) en\n        nuestra casa como para un gran servidor en una empresa o la nube.\n      </p>\n      <h1>Caracteristicas Principales</h1>\n      <ul>\n        <li>\n          CGI scripts\n        </li>\n        <li>\n          Registro de errores personalizado\n        </li>\n        <li>\n          Creación automática de dominios de 3er nivel\n        </li>\n        <li>\n          Instrucciones detalladas\n        </li>\n        <li>\n          Multitarea\n        </li>\n        <li>\n          Compatibilidad : Cuando tocamos este tema, siempre pasa lo mismo, la\n          gente desconfia. Nopuedo ejecutar mi aplicación favorita XXXX para\n          Windows 95, etc. Ten en cuenta que tampocoalguien que utiliza MAC, ni\n          con IRIX, etc\n        </li>\n        <li>\n          Soporte : Las empresas que venden cd's de Linux como Mandrake, SUSE, o\n          RedHat ofrecensoporte tècnico, y existen miles de personas que te\n          ayudarán a solucionar cualquier problemaque tengas con Linux en foros,\n          blogs y listas de correo. No dudes de unirte a las listas\n          dedistribución que hay en Internet, no solo aprenderás, podrás ayudar\n          a otros en los problemasque tengan.\n        </li>\n      </ul>\n\n      <h1>Guia de Instalacion de Linux Server</h1>\n\n      <p>\n        Para poder utilizar Linux en modo servidor necesitamos tener una\n        disitrbucion de linux previamente instalado, una vez que la tengamos\n        pasamos a la configuracion\n      </p>\n\n      <div>\n        <img src=\"assets/linux-logo.jpg\" alt=\"\" class=\"logo\" />\n      </div>\n\n      <p>\n        Ahora comenzaremos con la configuracion de nuestro servidor, para ello\n        crearemos grupos nuevos, los cuales se crean con el siguiente comando\n        \"sudo groupadd nombre_del_grupo\"\n      </p>\n\n      <div>\n        <img src=\"assets/linux-server1.png\" alt=\"software\" class=\"image-cont\" />\n\n        <p>\n          Para crear usuarios nuevos se hace de la siguiente manera \"sudo\n          useradd nombre_usuario\"\n        </p>\n        <div>\n          <img\n            src=\"assets/linux-server2.png\"\n            alt=\"software\"\n            class=\"image-cont\"\n          />\n        </div>\n        <div>\n          <p>\n            Para unir los usurios a los grupos se hace de esta manera \"sudo\n            usermod -a -G nombre_grupo nombre_usuario\"\n          </p>\n          <div>\n            <img\n              src=\"assets/linux-server3.png\"\n              alt=\"software\"\n              class=\"image-cont\"\n            />\n          </div>\n          <p>\n            Despues vemos todos los usuarios\n          </p>\n          <div>\n            <img\n              src=\"assets/linux-server4.png\"\n              alt=\"software\"\n              class=\"image-cont\"\n            />\n          </div>\n          <p>\n            Aqui vemos todos los grupos con sus respectivos usuarios\n          </p>\n          <div>\n            <img\n              src=\"assets/linux-server5.png\"\n              alt=\"software\"\n              class=\"image-cont\"\n            />\n          </div>\n          <p>\n            Y con eso configuramos grupos y usuarios en nuestro sistema linux\n          </p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/linux/linux.component.html":
   /*!*********************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/linux/linux.component.html ***!
@@ -1082,6 +1102,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
     /*! ./components/users-ws/users-ws.component */
     "./src/app/components/users-ws/users-ws.component.ts");
+    /* harmony import */
+
+
+    var _components_linux_server_linux_server_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    /*! ./components/linux-server/linux-server.component */
+    "./src/app/components/linux-server/linux-server.component.ts");
 
     var routes = [{
       path: "home",
@@ -1116,6 +1142,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }, {
       path: "Windows Server",
       component: _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_13__["WindowsServerComponent"]
+    }, {
+      path: "Linux Server",
+      component: _components_linux_server_linux_server_component__WEBPACK_IMPORTED_MODULE_15__["LinuxServerComponent"]
     }, {
       path: "Usuarios y Grupos Windows Server",
       component: _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_14__["UsersWSComponent"]
@@ -1365,13 +1394,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! ./components/users-ws/users-ws.component */
     "./src/app/components/users-ws/users-ws.component.ts");
+    /* harmony import */
+
+
+    var _components_linux_server_linux_server_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    /*! ./components/linux-server/linux-server.component */
+    "./src/app/components/linux-server/linux-server.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], _components_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_8__["DropdownComponent"], _components_search_search_component__WEBPACK_IMPORTED_MODULE_9__["SearchComponent"], _components_drop_soft_drop_soft_component__WEBPACK_IMPORTED_MODULE_10__["DropSoftComponent"], _components_images_images_component__WEBPACK_IMPORTED_MODULE_11__["ImagesComponent"], _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__["WindowsComponent"], _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"], _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"], _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"], _components_django_django_component__WEBPACK_IMPORTED_MODULE_16__["DjangoComponent"], _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__["LaravelComponent"], _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_18__["IonicComponent"], _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__["RubyComponent"], _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__["VideogameComponent"], _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_21__["WindowsServerComponent"], _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_22__["UsersWSComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _components_shared_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_5__["NavbarComponent"], _components_shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_7__["HomeComponent"], _components_dropdown_dropdown_component__WEBPACK_IMPORTED_MODULE_8__["DropdownComponent"], _components_search_search_component__WEBPACK_IMPORTED_MODULE_9__["SearchComponent"], _components_drop_soft_drop_soft_component__WEBPACK_IMPORTED_MODULE_10__["DropSoftComponent"], _components_images_images_component__WEBPACK_IMPORTED_MODULE_11__["ImagesComponent"], _components_windows_windows_component__WEBPACK_IMPORTED_MODULE_12__["WindowsComponent"], _components_linux_linux_component__WEBPACK_IMPORTED_MODULE_13__["LinuxComponent"], _components_services_services_component__WEBPACK_IMPORTED_MODULE_14__["ServicesComponent"], _components_free_office_free_office_component__WEBPACK_IMPORTED_MODULE_15__["FreeOfficeComponent"], _components_django_django_component__WEBPACK_IMPORTED_MODULE_16__["DjangoComponent"], _components_laravel_laravel_component__WEBPACK_IMPORTED_MODULE_17__["LaravelComponent"], _components_ionic_ionic_component__WEBPACK_IMPORTED_MODULE_18__["IonicComponent"], _components_ruby_ruby_component__WEBPACK_IMPORTED_MODULE_19__["RubyComponent"], _components_videogame_videogame_component__WEBPACK_IMPORTED_MODULE_20__["VideogameComponent"], _components_windows_server_windows_server_component__WEBPACK_IMPORTED_MODULE_21__["WindowsServerComponent"], _components_users_ws_users_ws_component__WEBPACK_IMPORTED_MODULE_22__["UsersWSComponent"], _components_linux_server_linux_server_component__WEBPACK_IMPORTED_MODULE_23__["LinuxServerComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -2052,6 +2087,85 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/components/linux-server/linux-server.component.css":
+  /*!********************************************************************!*\
+    !*** ./src/app/components/linux-server/linux-server.component.css ***!
+    \********************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsLinuxServerLinuxServerComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9saW51eC1zZXJ2ZXIvbGludXgtc2VydmVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFXO0VBQ1gsYUFBYTtBQUNmOztBQUVBO0VBQ0UsWUFBWTtFQUNaLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7RUFDVixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixjQUFjO0FBQ2hCOztBQUVBOztFQUVFLGdCQUFnQjtFQUNoQiwwQkFBMEI7QUFDNUI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0VBQ3BCLGlCQUFpQjtFQUNqQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsWUFBWTtBQUNkOztBQUVBO0VBQ0UsVUFBVTtBQUNaIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9saW51eC1zZXJ2ZXIvbGludXgtc2VydmVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFpbi1pbWFnZW4ge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogODAwcHg7XHJcbn1cclxuXHJcbi5sb2dvIHtcclxuICBoZWlnaHQ6IGF1dG87XHJcbiAgd2lkdGg6IDI1JTtcclxufVxyXG5cclxuLmltYWdlbiB7XHJcbiAgd2lkdGg6IDUwJTtcclxuICBoZWlnaHQ6IDUwMHB4O1xyXG59XHJcblxyXG4uaW1hZ2Uge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGl0IHtcclxuICBwYWRkaW5nOiAwO1xyXG59XHJcblxyXG4uZWRpY2lvbiB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzEzNTI4NTtcclxuICBjb2xvcjogI2ZmZmZmZjtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5lZGljaW9uIHAge1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICBtYXJnaW46IDUwcHggMDtcclxufVxyXG5cclxuLmVkaWNpb24gaDIsXHJcbmgxIHtcclxuICBtYXJnaW4tdG9wOiA1MHB4O1xyXG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG59XHJcblxyXG4uZWRpY2lvbiBsaSB7XHJcbiAgYm9yZGVyLXJhZGl1czogMnB4O1xyXG4gIGJvcmRlci1zdHlsZTogZG91YmxlO1xyXG4gIGJvcmRlci1jb2xvcjogcmVkO1xyXG4gIG1hcmdpbjogMjBweCAwO1xyXG4gIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTtcclxuICBmb250LXNpemU6IDI1cHg7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG4uc2VydmljZS1pbWcge1xyXG4gIHdpZHRoOiA0MCU7XHJcbiAgaGVpZ2h0OiBhdXRvO1xyXG59XHJcblxyXG4uaW1hZ2UtY29udCB7XHJcbiAgd2lkdGg6IDUwJTtcclxufVxyXG4iXX0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/linux-server/linux-server.component.ts":
+  /*!*******************************************************************!*\
+    !*** ./src/app/components/linux-server/linux-server.component.ts ***!
+    \*******************************************************************/
+
+  /*! exports provided: LinuxServerComponent */
+
+  /***/
+  function srcAppComponentsLinuxServerLinuxServerComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LinuxServerComponent", function () {
+      return LinuxServerComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var LinuxServerComponent =
+    /*#__PURE__*/
+    function () {
+      function LinuxServerComponent() {
+        _classCallCheck(this, LinuxServerComponent);
+      }
+
+      _createClass(LinuxServerComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return LinuxServerComponent;
+    }();
+
+    LinuxServerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-linux-server',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./linux-server.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/linux-server/linux-server.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./linux-server.component.css */
+      "./src/app/components/linux-server/linux-server.component.css")).default]
+    })], LinuxServerComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/components/linux/linux.component.css":
   /*!******************************************************!*\
     !*** ./src/app/components/linux/linux.component.css ***!
@@ -2543,7 +2657,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".main-imagen {\r\n  width: 100%;\r\n  height: 800px;\r\n}\r\n\r\n.logo {\r\n  height: auto;\r\n  width: 25%;\r\n}\r\n\r\n.imagen {\r\n  width: 50%;\r\n  height: 500px;\r\n}\r\n\r\n.image {\r\n  padding: 0;\r\n}\r\n\r\n.edit {\r\n  padding: 0;\r\n}\r\n\r\n.edicion {\r\n  background-color: #135285;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n.edicion p {\r\n  font-size: 25px;\r\n  margin: 50px 0;\r\n}\r\n\r\n.edicion h2,\r\nh1 {\r\n  margin-top: 50px;\r\n  text-decoration: underline;\r\n}\r\n\r\n.edicion li {\r\n  border-radius: 2px;\r\n  border-style: double;\r\n  border-color: red;\r\n  margin: 20px 0;\r\n  list-style-type: none;\r\n  font-size: 25px;\r\n  text-align: center;\r\n}\r\n\r\n.service-img {\r\n  width: 40%;\r\n  height: auto;\r\n}\r\n\r\n.image-cont {\r\n  width: 50%;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy91c2Vycy13cy91c2Vycy13cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxnQkFBZ0I7RUFDaEIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdXNlcnMtd3MvdXNlcnMtd3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiA4MDBweDtcclxufVxyXG5cclxuLmxvZ28ge1xyXG4gIGhlaWdodDogYXV0bztcclxuICB3aWR0aDogMjUlO1xyXG59XHJcblxyXG4uaW1hZ2VuIHtcclxuICB3aWR0aDogNTAlO1xyXG4gIGhlaWdodDogNTAwcHg7XHJcbn1cclxuXHJcbi5pbWFnZSB7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmVkaXQge1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5lZGljaW9uIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xyXG4gIGNvbG9yOiAjZmZmZmZmO1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuLmVkaWNpb24gcCB7XHJcbiAgZm9udC1zaXplOiAyNXB4O1xyXG4gIG1hcmdpbjogNTBweCAwO1xyXG59XHJcblxyXG4uZWRpY2lvbiBoMixcclxuaDEge1xyXG4gIG1hcmdpbi10b3A6IDUwcHg7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbn1cclxuXHJcbi5lZGljaW9uIGxpIHtcclxuICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XHJcbiAgYm9yZGVyLWNvbG9yOiByZWQ7XHJcbiAgbWFyZ2luOiAyMHB4IDA7XHJcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gIGZvbnQtc2l6ZTogMjVweDtcclxuICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5zZXJ2aWNlLWltZyB7XHJcbiAgd2lkdGg6IDQwJTtcclxuICBoZWlnaHQ6IGF1dG87XHJcbn1cclxuXHJcbi5pbWFnZS1jb250IHtcclxuICB3aWR0aDogNTAlO1xyXG59XHJcbiJdfQ== */";
+    __webpack_exports__["default"] = ".main-imagen {\n  width: 100%;\n  height: 800px;\n}\n\n.logo {\n  height: auto;\n  width: 25%;\n}\n\n.imagen {\n  width: 50%;\n  height: 500px;\n}\n\n.image {\n  padding: 0;\n}\n\n.edit {\n  padding: 0;\n}\n\n.edicion {\n  background-color: #135285;\n  color: #ffffff;\n  text-align: center;\n}\n\n.edicion p {\n  font-size: 25px;\n  margin: 50px 0;\n}\n\n.edicion h2,\nh1 {\n  margin-top: 50px;\n  text-decoration: underline;\n}\n\n.edicion li {\n  border-radius: 2px;\n  border-style: double;\n  border-color: red;\n  margin: 20px 0;\n  list-style-type: none;\n  font-size: 25px;\n  text-align: center;\n}\n\n.service-img {\n  width: 40%;\n  height: auto;\n}\n\n.image-cont {\n  width: 50%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy91c2Vycy13cy91c2Vycy13cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0FBVztFQUNYLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFlBQVk7RUFDWixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtBQUNmOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UsVUFBVTtBQUNaOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxnQkFBZ0I7RUFDaEIsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9CQUFvQjtFQUNwQixpQkFBaUI7RUFDakIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsVUFBVTtFQUNWLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdXNlcnMtd3MvdXNlcnMtd3MuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYWluLWltYWdlbiB7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDgwMHB4O1xufVxuXG4ubG9nbyB7XG4gIGhlaWdodDogYXV0bztcbiAgd2lkdGg6IDI1JTtcbn1cblxuLmltYWdlbiB7XG4gIHdpZHRoOiA1MCU7XG4gIGhlaWdodDogNTAwcHg7XG59XG5cbi5pbWFnZSB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5lZGl0IHtcbiAgcGFkZGluZzogMDtcbn1cblxuLmVkaWNpb24ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTM1Mjg1O1xuICBjb2xvcjogI2ZmZmZmZjtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uZWRpY2lvbiBwIHtcbiAgZm9udC1zaXplOiAyNXB4O1xuICBtYXJnaW46IDUwcHggMDtcbn1cblxuLmVkaWNpb24gaDIsXG5oMSB7XG4gIG1hcmdpbi10b3A6IDUwcHg7XG4gIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xufVxuXG4uZWRpY2lvbiBsaSB7XG4gIGJvcmRlci1yYWRpdXM6IDJweDtcbiAgYm9yZGVyLXN0eWxlOiBkb3VibGU7XG4gIGJvcmRlci1jb2xvcjogcmVkO1xuICBtYXJnaW46IDIwcHggMDtcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICBmb250LXNpemU6IDI1cHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLnNlcnZpY2UtaW1nIHtcbiAgd2lkdGg6IDQwJTtcbiAgaGVpZ2h0OiBhdXRvO1xufVxuXG4uaW1hZ2UtY29udCB7XG4gIHdpZHRoOiA1MCU7XG59XG4iXX0= */";
     /***/
   },
 

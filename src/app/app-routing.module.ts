@@ -12,6 +12,7 @@ import { RubyComponent } from "./components/ruby/ruby.component";
 import { VideogameComponent } from "./components/videogame/videogame.component";
 import { WindowsServerComponent } from "./components/windows-server/windows-server.component";
 import { UsersWSComponent } from "./components/users-ws/users-ws.component";
+import { LinuxServerComponent } from "./components/linux-server/linux-server.component";
 
 const routes: Routes = [
   { path: "home", component: HomeComponent },
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: "Ruby", component: RubyComponent },
   { path: "VideoJuego", component: VideogameComponent },
   { path: "Windows Server", component: WindowsServerComponent },
+  { path: "Linux Server", component: LinuxServerComponent },
   { path: "Usuarios y Grupos Windows Server", component: UsersWSComponent },
   { path: "**", pathMatch: "full", redirectTo: "home" },
 ];

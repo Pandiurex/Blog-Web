@@ -21,6 +21,7 @@ import { RubyComponent } from './components/ruby/ruby.component';
 import { VideogameComponent } from './components/videogame/videogame.component';
 import { WindowsServerComponent } from './components/windows-server/windows-server.component';
 import { UsersWSComponent } from './components/users-ws/users-ws.component';
+import { LinuxServerComponent } from './components/linux-server/linux-server.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { UsersWSComponent } from './components/users-ws/users-ws.component';
     RubyComponent,
     VideogameComponent,
     WindowsServerComponent,
-    UsersWSComponent
+    UsersWSComponent,
+    LinuxServerComponent
   ],
   imports: [
     BrowserModule,
