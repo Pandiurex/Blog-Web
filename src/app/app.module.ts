@@ -22,6 +22,7 @@ import { VideogameComponent } from './components/videogame/videogame.component';
 import { WindowsServerComponent } from './components/windows-server/windows-server.component';
 import { UsersWSComponent } from './components/users-ws/users-ws.component';
 import { LinuxServerComponent } from './components/linux-server/linux-server.component';
+import { LsDjRbyComponent } from './components/ls-dj-rby/ls-dj-rby.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { LinuxServerComponent } from './components/linux-server/linux-server.com
     VideogameComponent,
     WindowsServerComponent,
     UsersWSComponent,
-    LinuxServerComponent
+    LinuxServerComponent,
+    LsDjRbyComponent
   ],
   imports: [
     BrowserModule,

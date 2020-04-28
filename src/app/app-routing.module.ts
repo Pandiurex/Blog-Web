@@ -13,6 +13,7 @@ import { VideogameComponent } from "./components/videogame/videogame.component";
 import { WindowsServerComponent } from "./components/windows-server/windows-server.component";
 import { UsersWSComponent } from "./components/users-ws/users-ws.component";
 import { LinuxServerComponent } from "./components/linux-server/linux-server.component";
+import { LsDjRbyComponent } from "./components/ls-dj-rby/ls-dj-rby.component";
 
 const routes: Routes = [
   { path: "home", component: HomeComponent },
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: "VideoJuego", component: VideogameComponent },
   { path: "Windows Server", component: WindowsServerComponent },
   { path: "Linux Server", component: LinuxServerComponent },
+  { path: "Linux Server Django y Ruby", component: LsDjRbyComponent },
   { path: "Usuarios y Grupos Windows Server", component: UsersWSComponent },
   { path: "**", pathMatch: "full", redirectTo: "home" },
 ];

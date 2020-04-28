@@ -22,6 +22,9 @@ export class DropdownComponent implements OnInit {
     {
       software: "Linux Server",
     },
+    {
+      software: "Linux Server Django y Ruby",
+    },
   ];
 
   constructor() {}
