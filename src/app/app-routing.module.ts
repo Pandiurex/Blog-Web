@@ -15,6 +15,7 @@ import { UsersWSComponent } from "./components/users-ws/users-ws.component";
 import { LinuxServerComponent } from "./components/linux-server/linux-server.component";
 import { LsDjRbyComponent } from "./components/ls-dj-rby/ls-dj-rby.component";
 import { SambaComponent } from "./components/samba/samba.component";
+import { WsDjRbyComponent } from "./components/ws-dj-rby/ws-dj-rby.component";
 
 const routes: Routes = [
   { path: "home", component: HomeComponent },
@@ -31,6 +32,7 @@ const routes: Routes = [
   { path: "Windows Server", component: WindowsServerComponent },
   { path: "Linux Server", component: LinuxServerComponent },
   { path: "Linux Server Django y Ruby", component: LsDjRbyComponent },
+  { path: "Windows Server Django y Ruby", component: WsDjRbyComponent },
   { path: "Usuarios y Grupos Windows Server", component: UsersWSComponent },
   { path: "**", pathMatch: "full", redirectTo: "home" },
 ];

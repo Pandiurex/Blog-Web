@@ -24,6 +24,7 @@ import { UsersWSComponent } from './components/users-ws/users-ws.component';
 import { LinuxServerComponent } from './components/linux-server/linux-server.component';
 import { LsDjRbyComponent } from './components/ls-dj-rby/ls-dj-rby.component';
 import { SambaComponent } from './components/samba/samba.component';
+import { WsDjRbyComponent } from './components/ws-dj-rby/ws-dj-rby.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { SambaComponent } from './components/samba/samba.component';
     UsersWSComponent,
     LinuxServerComponent,
     LsDjRbyComponent,
-    SambaComponent
+    SambaComponent,
+    WsDjRbyComponent
   ],
   imports: [
     BrowserModule,

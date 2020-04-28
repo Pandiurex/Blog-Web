@@ -17,6 +17,9 @@ export class DropdownComponent implements OnInit {
       software: "Windows Server",
     },
     {
+      software: "Windows Server Django y Ruby",
+    },
+    {
       software: "Usuarios y Grupos Windows Server",
     },
     {
